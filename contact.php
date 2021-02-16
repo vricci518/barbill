@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title>Contact Bar-Bill</title>
+    <link rel="stylesheet" href="barbill.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 <body>
 <header>
@@ -16,19 +18,31 @@
         </nav>
     </header>
 </br>
-    <img src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" id="contactphoto" width="80%">
-    <h2 id="contactpgheader">Contact Us </br> We will get back to you as soon as possible.</h2>
-    <div class="contactform">
+<img src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="100%">
+<h2>Contact Us </br> We will get back to you as soon as possible.</h2>
+<div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        Name: <input type="text" name="name"></br>
-        E-mail: <input type="text" name="email"></br>
-        Phone: <input type="tel" name="phone"></br>
-        Comment: <textarea name="comment" rows="5" cols="50"></textarea></br>
-        Location: <input type="radio" name="location" value="EA">East Aurora 
+    <div class="cf-group">
+       <label>Name:</label><input type="text" name="name"></br>
+    </div>
+    <div class="cf-group">
+       <label>E-mail:</label><input type="text" name="email"></br>
+    </div>
+    <div class="cf-group">
+        <label>Phone:</label><input type="text" name="phone"></br>
+    </div>
+    <div class="cf-group">
+        <label>Comment:</label><textarea name="comment" rows="5" cols="50"></textarea></br>
+    </div>
+    <div class="cf-group">
+        <label>Location:</label><input type="radio" name="location" value="EA">East Aurora 
                 <input type="radio" name="location" value="CL">Clarence </br>
-            <label for="myfile">Select a file:</label>
+    </div>
+    <div class="cf-group">
+                <label for="myfile">Select a file:</label>
                 <input type="file" id="myfile" name="myfile"></br>
-                <input type="submit" name="submit" value="Submit">
+    </div>
+                <input type="submit" class="button" value="Submit">
     </form> 
     </div>
 <   </div id=php>
@@ -68,6 +82,5 @@
         }   
     }
     ?>
-    </div>
 </body>
 </html>
