@@ -1,0 +1,42 @@
+/* About Us page styling */
+.historyea{
+    background-color: #FFFFFF85;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+}
+.historyea h2{
+    color: #C03832;
+    text-align: center;
+    padding-top: 20px;
+}
+.historyea img{
+    display: block;
+    margin: auto;
+    border: 5px solid #C03832;
+    width: 75%;
+}
+.historyea p{
+    display: block;
+    margin: auto;
+    width: 85%;
+}
+.firsttime{
+    background-color: #C03832;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+}
+.firsttime h2{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.firsttime p{
+    color: #FFFFFF;
+    width: 95%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
