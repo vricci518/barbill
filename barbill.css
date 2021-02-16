@@ -43,13 +43,16 @@ h1{
 .navlink:hover{
     background-color: #C03832;
 }
-/* contact form css section (button class free use)*/
 .contactform{
     width: 75%;
-    padding: 40px 40px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
 }
 /* Home Page */
-#homephoto{
+#homephoto, #contactphoto{
     border: 5px solid #C03832;
     display: block;
     margin: auto;
@@ -108,7 +111,7 @@ ul{
     text-transform: uppercase;
     padding:15px;
     border: none;
-    margin: 0px 10px 25px 0px;
+    margin: 20px 10px 25px 0px;
 }
 .button:hover{
     background-color: #C03832;
@@ -116,16 +119,17 @@ ul{
 .FAQ h2{
     padding-left: 40px;
 }
-/* want the images to float without overlaying the text divs*/
-.FAQimg{
-    width: 50%;
-    padding:15px 15px 15px 40px;
-    border-radius: 20px;
+/*can we merge these two tags?*/
+#contactpgheader{
+    padding-left: 40px;
 }
 .FAQimg img{
-    border-radius: 20px;
-
-/* About Page */
+    border: 5px solid #C03832;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* About Page 
 .about{
     background-color: #FFFFFF85;
     margin: 20px;
@@ -155,14 +159,7 @@ ul{
 .firsttime p{
     color: #FFFFFF;
     padding: 0px 50px 0px 50px;
-}
-
-/* Contact Form */
-#contactform{
-    width: 75%;
-    padding: 20px 40px 20px 40px;
-    border-radius: 20px;
-    background-color: #FFFFFF85;
-    font-size: 18px;
-    margin: 0px 20px 20px 20px;
+}*/
+.pbottom{
+    margin-top: 500px;
 }
