@@ -11,15 +11,15 @@
         <nav>
             <a href="home.html" class="navlink">Home</a>
             <a href="menu.html" class="navlink">Menu</a>
-            <a href="socialmedia.html" class="navlink">Social Mediat</a>
+            <a href="socialmedia.html" class="navlink">Social Media</a>
             <a href="aboutus.html" class="navlink">About Us</a>
             <a href="FAQ.html" class="navlink">FAQ</a>
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
 </br>
-<img src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="100%">
-<h2>Contact Us </br> We will get back to you as soon as possible.</h2>
+<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="100%">
+<h2 id="cpgheader">Contact Us </br> We will get back to you as soon as possible.</h2>
 <div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="cf-group">
@@ -82,5 +82,25 @@
         }   
     }
     ?>
+    <footer>
+        <div class="footer">
+            <h2>Our Locations</h2>
+            <p><em>East Aurora Takeout</em><br />
+                191 Main Street, Rear<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>East Aurora</em><br />
+                185 Main Street<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>Clarence</em><br />
+                8326 Main Street<br />
+                Clarence, NY 14221<br />
+                (716) 710-9464
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
