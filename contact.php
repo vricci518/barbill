@@ -18,7 +18,7 @@
         </nav>
     </header>
 </br>
-<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="100%">
+<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="80%">
 <h2 id="cpgheader">Contact Us </br> We will get back to you as soon as possible.</h2>
 <div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
@@ -45,7 +45,7 @@
                 <input type="submit" class="button" value="Submit">
     </form> 
     </div>
-<   </div id=php>
+   </div id=php>
     <?php
     if(isset($_POST['submit'])){
         $name = "";
