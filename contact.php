@@ -11,7 +11,7 @@
         <nav>
             <a href="home.html" class="navlink">Home</a>
             <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
+            <a href="socialmedia.html" class="navlink">Social Mediat</a>
             <a href="aboutus.html" class="navlink">About Us</a>
             <a href="FAQ.html" class="navlink">FAQ</a>
             <a href="contact.php" class="navlink">Contact Us</a>
