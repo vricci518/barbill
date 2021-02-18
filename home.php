@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
-    <link rel="stylesheet" href="css/barbill.css">
+    <link rel="stylesheet" href="css\barbill.css">
+    <link rel="stylesheet" href="css\home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
-
 <body>
     <header>
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
-        <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
+        <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br/>
 
         <nav>
-            <a href="home.php" class="navlink">Home</a>
+        <a href="home.php" class="navlink">Home</a>
             <a href="menu.php" class="navlink">Menu</a>
             <a href="socialmedia.php" class="navlink">Social Media</a>
             <a href="aboutus.php" class="navlink">About Us</a>
@@ -97,5 +96,4 @@
         </div>
     </footer>
 </body>
-
 </html>

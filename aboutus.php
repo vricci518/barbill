@@ -3,15 +3,15 @@
 
 <head>
     <title>ABOUT US - Bar-Bill Tavern - Restaurant in NY</title>
-    <link rel="stylesheet" href="css/barbill.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css\barbill.css">
+    <link rel="stylesheet" href="css\aboutus.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 
 <body>
     <header>
-        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
-        <h1>about us: East Aurora and Clarence, NY</h1><br />
+        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
+        <h1>BAR-BILL TAVERN: East Aurora and Clarence, NY</h1><br/>
         <nav>
             <a href="home.php" class="navlink">Home</a>
             <a href="menu.php" class="navlink">Menu</a>
@@ -59,7 +59,7 @@
     </div>
     <div class="about">
         <h2>HISTORY: The New Bar Bill North</h2>
-        <img src="images/About_Cl.jpg" alt="clarence">
+        <img src="images/About_Cl.jpg" alt="clarence" width="100%">
         <p>What is now Bar-Bill North was formerly the well-known old Red Mill Inn. The structure was built in 1858 and
             interestingly enough, was never actually a functioning mill. It served as the main house for a 100 acre
             dairy farm until 1962 when it was transformed into a restaurant. In 1967, the business expanded by adding a
@@ -73,7 +73,7 @@
         <h2>First Timers</h2>
         <p>-WE DO NOT ACCEPT CREDIT CARDS-<br>
             So coming with cash always makes for an easier transaction. We have an ATM located in the bar if you forget,
-            so you;re never totally stuck.<br />
+            so you're never totally stuck.<br />
             -WHEN YOU ORDER-<br />
             Make sure you get at least one order of wings to share. You will not be disappointed, they are wrld famous!
             We only serve beef until 10pm, so get there early! The thing to remember above all else is you will always
