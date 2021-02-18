@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>FAQ</title>
+
         <link rel="stylesheet" href="css\barbill.css">
         <link rel="stylesheet" href="css\faq.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">   
@@ -11,7 +12,7 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
         <nav>
-        <a href="home.php" class="navlink">Home</a>
+            <a href="home.php" class="navlink">Home</a>
             <a href="menu.php" class="navlink">Menu</a>
             <a href="socialmedia.php" class="navlink">Social Media</a>
             <a href="aboutus.php" class="navlink">About Us</a>
@@ -31,8 +32,7 @@
         <li>Clarence curbside takeout is open Sunday - Thursday from 11:30 am til 7:30 pm</li>
         <li>Please Note: for online orders once the kitchen cook time exceeds the kitchen close time the online ordering form automatically shuts off, sometimes making customers unable to place an online order during our normal open hours. This only happens when our kitchen has hit our capacity for the night- we apologize for any inconvenience.</li>  
       </ul>
-    </ul>
-    </div>
+  </div>
 </br>
     <div class="FAQ">
     <h2>What safety measures are you taking for dining at your restaurant?</h2>
@@ -51,11 +51,13 @@
             -Common areas deep cleaned daily</li>
     </ul>
     </div>
+
     <div class="FAQimg">
         <img src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/1f05d53f-5261-4d37-a345-54ec307ad985.jpg"/>
     </div>
 </br>
     <div class="FAQ">
+
     <h2>I need to make a change to my reservation- what do I do?</h2>
     <ul>
         <li>If you are unable to make a change to your reservation through your opentable account please give us a call, leave us a message & someone will get back to you as soon as we can.</li>
@@ -74,6 +76,7 @@
     </div>
 </br>
     <div class="FAQ">
+
     <h2>Can I schedule an order for a later time?</h2>
     <ul>
         <li>So sorry, but our online system is unable to accept pre-orders (same goes for our phone orders). We can only accept takeout orders in real time as they are placed.</li>
@@ -99,7 +102,6 @@
     <h2>I'm trying to place an order during your open hours, but it says online ordering is currently not available. Why can't i place an order?</h2>
     <ul>
         <li>Once the kitchen cook time exceeds the kitchen close time the online ordering form automatically shuts off, sometimes making customers unable to place an online order during our normal open hours. This only happens when our kitchen has hit our capacity for the night- we apologize for any inconvenience.</li>
-    </ul>
     </div>
     <div class="FAQimg">
         <img src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/a49ce4fd-18ae-4a4d-96cb-ea2748b4a577.png"/>
@@ -122,18 +124,20 @@
     </ul>
     </div>
 </br>
-    <div class="FAQ">
-    <h2>How far in advance can i place a reservation for a table at Bar-Bill Tavern or Bar-Bill North?</h2>
+    <div class="FAQ">   
+      <h2>How far in advance can i place a reservation for a table at Bar-Bill Tavern or Bar-Bill North?</h2>
     <ul>
         <li>Guests are able to place a reservation up to 14 days in advance through our website!</li>
     </ul>
     </div>
 </br>
     <div class="FAQ">
+
     <h2>How can I be updated on announcements, changes or news from Bar-Bill?</h2>
     <ul>
         <li>Make sure you are following us on facebook, instagram & twitter for updates on Bar-Bill Tavern & Bar-Bill North!</li>
     </ul>
+
     </div>
 </br>
 <div id="FAQtitle">

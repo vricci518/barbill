@@ -8,9 +8,8 @@
 </head>
 <body>
     <header>
-        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
+        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br/>
-
         <nav>
         <a href="home.php" class="navlink">Home</a>
             <a href="menu.php" class="navlink">Menu</a>
@@ -21,7 +20,7 @@
         </nav>
     </header>
     <div name="home_page_photo">
-        <img src="images/barbilltavern.jpg" id="homephoto" alt="bar bill tavern" width="80%">
+        <img src="images/barbilltavern.jpg" id="homephoto" alt="bar bill tavern">
     </div>
     <div class="reservation">
         <h2>Dining Reservations</h2>

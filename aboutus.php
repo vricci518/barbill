@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
+        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
         <h1>BAR-BILL TAVERN: East Aurora and Clarence, NY</h1><br/>
         <nav>
             <a href="home.php" class="navlink">Home</a>
@@ -23,7 +23,7 @@
     </header>
     <div class="about">
         <h2>HISTORY: The Original East Aurora Bar-Bill</h2>
-        <img src="images/About_EA.jpg" alt="eastaurora" width="100%" />
+        <img src="images/About_EA.jpg" alt="eastaurora">
         <p>The Bar Bill Tavern has been an institution in East Aurora, NY since the day it opened its doors. Mystery
             surrounds the lore of "the Bill" at almost every telling. Everything from the name, to the famous customer
             vacations to the mug club feature a level of mythology when told at the bar (and elsewhere). The old
@@ -73,7 +73,9 @@
         <h2>First Timers</h2>
         <p>-WE DO NOT ACCEPT CREDIT CARDS-<br>
             So coming with cash always makes for an easier transaction. We have an ATM located in the bar if you forget,
-            so you;re never totally stuck.<br />
+
+            so you're never totally stuck.<br />
+
             -WHEN YOU ORDER-<br />
             Make sure you get at least one order of wings to share. You will not be disappointed, they are wrld famous!
             We only serve beef until 10pm, so get there early! The thing to remember above all else is you will always

@@ -10,7 +10,9 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
         <nav>
-        <a href="home.php" class="navlink">Home</a>
+
+            <a href="home.php" class="navlink">Home</a>
+
             <a href="menu.php" class="navlink">Menu</a>
             <a href="socialmedia.php" class="navlink">Social Media</a>
             <a href="aboutus.php" class="navlink">About Us</a>
@@ -19,8 +21,9 @@
         </nav>
     </header>
 </br>
-<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="80%">
-<h2 id="cpgheader">Contact Us </br> We will get back to you as soon as possible.</h2>
+<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg">
+<h2>Contact Us </br> We will get back to you as soon as possible.</h2>
+
 <div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="cf-group">
