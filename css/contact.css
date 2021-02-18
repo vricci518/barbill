@@ -1,0 +1,28 @@
+.contactform{
+    width: 75%;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+#contactphoto{
+    border: 5px solid #C03832;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.contactform .cf-group{
+    padding-bottom: 15px;
+}
+
+.contactform label{
+    display: block;
+}
+
+.contactform .cf-group input[type="text"], .cf-group textarea{
+    padding: 4px;
+}
+#cpgheader{
+    padding-left: 40px;
+}

@@ -1,0 +1,16 @@
+#SMpage{
+    margin: auto;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+#SMFace, #SMInsta, #SMTwitter{
+    float: left;
+    width: auto;
+    background-color: #FFFFFF85;
+    padding: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.Social-Media img{
+    border: 5px solid #C03832;
+}

@@ -73,7 +73,9 @@
         <h2>First Timers</h2>
         <p>-WE DO NOT ACCEPT CREDIT CARDS-<br>
             So coming with cash always makes for an easier transaction. We have an ATM located in the bar if you forget,
+
             so you're never totally stuck.<br />
+
             -WHEN YOU ORDER-<br />
             Make sure you get at least one order of wings to share. You will not be disappointed, they are wrld famous!
             We only serve beef until 10pm, so get there early! The thing to remember above all else is you will always
