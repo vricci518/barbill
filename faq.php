@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>FAQ</title>
-        <link rel="stylesheet" href="barbill.css">
+        <link rel="stylesheet" href="css/barbill.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">   
     </head>
 <body>
@@ -10,11 +10,11 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
         <nav>
-            <a href="home.html" class="navlink">Home</a>
-            <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
-            <a href="aboutus.html" class="navlink">About Us</a>
-            <a href="FAQ.html" class="navlink">FAQ</a>
+            <a href="home.php" class="navlink">Home</a>
+            <a href="menu.php" class="navlink">Menu</a>
+            <a href="socialmedia.php" class="navlink">Social Media</a>
+            <a href="aboutus.php" class="navlink">About Us</a>
+            <a href="faq.php" class="navlink">FAQ</a>
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>

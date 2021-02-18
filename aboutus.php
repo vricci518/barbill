@@ -3,8 +3,8 @@
 
 <head>
     <title>ABOUT US - Bar-Bill Tavern - Restaurant in NY</title>
-    <link rel="stylesheet" href="barbill.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css/barbill.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 
@@ -13,17 +13,17 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>about us: East Aurora and Clarence, NY</h1><br />
         <nav>
-            <a href="home.html" class="navlink">Home</a>
-            <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
-            <a href="aboutus.html" class="navlink">About Us</a>
-            <a href="faq.html" class="navlink">FAQ</a>
+            <a href="home.php" class="navlink">Home</a>
+            <a href="menu.php" class="navlink">Menu</a>
+            <a href="socialmedia.php" class="navlink">Social Media</a>
+            <a href="aboutus.php" class="navlink">About Us</a>
+            <a href="faq.php" class="navlink">FAQ</a>
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
     <div class="about">
         <h2>HISTORY: The Original East Aurora Bar-Bill</h2>
-        <img src="images/About_EA.jpg" alt="eastaurora" width="100%" />
+        <img src="images/About_EA.jpg" alt="eastaurora">
         <p>The Bar Bill Tavern has been an institution in East Aurora, NY since the day it opened its doors. Mystery
             surrounds the lore of "the Bill" at almost every telling. Everything from the name, to the famous customer
             vacations to the mug club feature a level of mythology when told at the bar (and elsewhere). The old
@@ -59,7 +59,7 @@
     </div>
     <div class="about">
         <h2>HISTORY: The New Bar Bill North</h2>
-        <img src="images/About_Cl.jpg" alt="clarence" width="100%">
+        <img src="images/About_Cl.jpg" alt="clarence">
         <p>What is now Bar-Bill North was formerly the well-known old Red Mill Inn. The structure was built in 1858 and
             interestingly enough, was never actually a functioning mill. It served as the main house for a 100 acre
             dairy farm until 1962 when it was transformed into a restaurant. In 1967, the business expanded by adding a

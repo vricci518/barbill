@@ -9,8 +9,10 @@ body {
 
 header {
     background-color: #2A53A2;
+    position: fixed;
+    top: 0;
     text-align: center;
-    width: 100%;
+    width: 100%
 }
 
 ul {
@@ -24,6 +26,7 @@ ul {
 
 #logo {
     display: inline-block;
+    width: 10%;
     padding: 20px 30px 20px 0px;
     vertical-align: middle;
 }
@@ -64,10 +67,10 @@ h1 {
 /* Home Page */
 
 #homephoto, #contactphoto {
-    border: 5px solid #C03832;
     display: block;
+    width: max-content;
+    padding-top: 100px;
     margin: auto;
-    margin-top: 20px;
 }
 
 .reservation {

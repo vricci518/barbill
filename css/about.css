@@ -1,39 +1,45 @@
-.about{
+.about {
     background-color: #FFFFFF85;
+    margin: 300px auto 0 auto;
     border-radius: 20px;
     width: 90%;
-    margin: auto;
 }
-.about h2{
+
+.about h2 {
     text-align: center;
     color: #C03832;
     padding-top: 20px;
     text-transform: uppercase;
 }
-.about img{
+
+.about img {
     border: 5px solid #C03832;
     display: block;
     margin: auto;
     width: 90%;
 }
-.about p{
+
+.about p {
     width: 90%;
     margin: auto;
     padding: 10px 0px 10px 0px;
 }
-.firsttime{
+
+.firsttime {
     background-color: #C03832;
     text-align: center;
     margin: auto;
     border-radius: 20px;
     width: 90%;
 }
-.firsttime h2{
+
+.firsttime h2 {
     color: #FFFFFF;
     text-transform: uppercase;
     padding-top: 20px;
 }
-.firsttime p{
+
+.firsttime p {
     color: #FFFFFF;
     width: 90%;
     margin: auto;
