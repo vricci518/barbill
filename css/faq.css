@@ -1,0 +1,19 @@
+#FAQtitle{
+    color: black;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.FAQ{
+    width: 75%;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+.FAQimg img{
+    border: 5px solid #C03832;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
