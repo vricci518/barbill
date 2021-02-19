@@ -10,9 +10,7 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
         <nav>
-
             <a href="home.php" class="navlink">Home</a>
-
             <a href="menu.php" class="navlink">Menu</a>
             <a href="socialmedia.php" class="navlink">Social Media</a>
             <a href="aboutus.php" class="navlink">About Us</a>

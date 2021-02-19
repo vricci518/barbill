@@ -1,18 +1,14 @@
-
-
 #homephoto{
     display: block;
     margin: auto;
+}
 
 #homephoto, #contactphoto{
-
     border: 5px solid #C03832;
     display: block;
     margin: auto;
     margin-top: 20px;
-
 }
-
 .reservation{
     background-color: #FFFFFF85;
     border-radius: 20px;

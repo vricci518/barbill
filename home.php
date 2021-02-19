@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
-    <link rel="stylesheet" href="css\barbill.css">
-    <link rel="stylesheet" href="css\home.css">
+    <link rel="stylesheet" href="css/barbill.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 <body>
