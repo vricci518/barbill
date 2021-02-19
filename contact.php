@@ -19,12 +19,11 @@
         </nav>
     </header>
 </br>
-<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg">
 <div id="CUH">
 	<h2>Contact Us- we will get back to you as soon as possible.</h2>
 </div>
 <div class="contactform">
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+    <form action="contact.php" method="post">
     <div class="cf-group">
        <label>Name:</label><input type="text" name="name"></br>
     </div>
@@ -50,21 +49,23 @@
     </div>
    </div id=php>
     <?php
-    if(isset($_POST['submit'])){
-        $name = "";
-        $email = "";
-        $phone = "";
-        $comment= "";
-        $location= "";
-    }
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
+    if(isset($_POST["submit"])){
+        $name = trim($_POST['name']);
+        $email = trim($_POST['email']);
+        $phone = trim($_POST['phone']);
+        $comment= trim($_POST['comment']);
+        $location= trim($_POST['location']);
+	}
+		$_POST = filter_var($_POST, \FILTER_CALLBACK, ['options' => 'trim']);
+		$submitsuccess = "thank you";
+
         if(!empty($_POST["name"])){
             $name = $_POST['name'];
         }else {
             echo "<h2> Name is Required</h2>";
         }   
-        if(!empty($_POST["email"])){
-            $email = $_POST['email'];
+		if(!empty($_POST["email"])){
+            $name = $_POST['email'];
         }else {
             echo "<h2> Email is Required</h2>";
         }   
@@ -82,8 +83,12 @@
             $location = $_POST['location'];
         }else {
             echo "<h2> Location is Required</h2>";
-        }   
-    }
+		}
+		if($_POST['submit']){
+			if (mail ($name, $email, $phone, $location)) { 
+			   echo $submitsuccess;
+			}
+		}
     ?>
     <footer>
         <div class="footer">
