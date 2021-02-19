@@ -1,7 +1,23 @@
 #FAQtitle{
-    color: black;
-    margin-left: 40px;
+    color: #C03832;
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    margin: 20px 25px;
+    text-align: center;
     font-size: 20px;
+}
+ul{
+    width:auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+.FAQ h2{
+    color: #C03832
 }
 .FAQ{
     width: 75%;
@@ -9,7 +25,7 @@
     border-radius: 20px;
     background-color: #FFFFFF85;
     font-size: 18px;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 25px;
 }
 .FAQimg img{
     border: 5px solid #C03832;

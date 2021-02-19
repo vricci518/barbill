@@ -21,7 +21,9 @@
             </nav>
         </header>
     <div id="SMpage">
-        <h1>Follow us on Social Media</h1>
+        <div id=SMH>
+            <h2>Follow us on Social Media</h2>
+        </div>
         <div class="Social-Media">
             <div id="SMFace">
                 <h2>Facebook</h2>

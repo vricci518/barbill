@@ -2,7 +2,6 @@
     display: block;
     margin: auto;
 }
-
 #homephoto, #contactphoto{
     border: 5px solid #C03832;
     display: block;
@@ -15,18 +14,15 @@
     margin: auto;
     width: 90%;
 }
-
 .reservation h2{
     text-align: center;
     color: #C03832;
     padding-top: 20px;
     text-transform: uppercase;
 }
-
 .reservation h3{
     text-align: center;
 }
-
 .location{
     text-align: center;
 }

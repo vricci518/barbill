@@ -20,8 +20,9 @@
     </header>
 </br>
 <img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg">
-<h2>Contact Us </br> We will get back to you as soon as possible.</h2>
-
+<div id="CUH">
+	<h2>Contact Us- we will get back to you as soon as possible.</h2>
+</div>
 <div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="cf-group">
