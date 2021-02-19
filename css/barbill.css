@@ -1,0 +1,94 @@
+/* Google font assignment */
+
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: #2A53A280;
+}
+
+/* Header  Logo and Navigation Bar Links */
+
+header{
+    background-color: #2A53A2;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#logo{
+    display: inline-block;
+
+    width: 10%;
+
+    padding: 20px 30px 20px 0px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.navlink{
+    display: inline-block;
+    width: 12%;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFFFFF85;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 10px 25px 0px;
+}
+.navlink:hover{
+    background-color: #C03832;
+}
+.button{
+    background-color: #2A53A2;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+    border: none;
+    margin: 20px 10px 25px 0px;
+}
+.button:hover{
+    background-color: #C03832;
+}
+.pbottom{
+    margin-top: 500px;
+}
+.footer p{
+    width: 30%;
+    display: inline-block;
+}
+
+/* Social Media */
+
+
+
+.pbottom{
+    margin-top: 500px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #2A53A2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.footer p{
+    width: 30%;
+    display: inline-block;
+}
+

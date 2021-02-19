@@ -1,0 +1,26 @@
+#SMpage{
+    margin: none;
+    padding: none;
+    overflow: hidden;
+}
+#SMH{
+    color: #C03832;
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    margin: 20px 25px;
+    text-align: center;
+    font-size: 20px;
+}
+#SMFace, #SMInsta, #SMTwitter{
+    float: left;
+    width: auto;
+    background-color: #FFFFFF85;
+    padding: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.Social-Media img{
+    border: 5px solid #C03832;
+}

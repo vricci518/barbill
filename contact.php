@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title>Contact Bar-Bill</title>
-    <link rel="stylesheet" href="barbill.css">
+    <link rel="stylesheet" href="css\barbill.css">
+    <link rel="stylesheet" href="css\contact.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 <body>
@@ -9,17 +10,19 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
         <nav>
-            <a href="home.html" class="navlink">Home</a>
-            <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
-            <a href="aboutus.html" class="navlink">About Us</a>
-            <a href="FAQ.html" class="navlink">FAQ</a>
+            <a href="home.php" class="navlink">Home</a>
+            <a href="menu.php" class="navlink">Menu</a>
+            <a href="socialmedia.php" class="navlink">Social Media</a>
+            <a href="aboutus.php" class="navlink">About Us</a>
+            <a href="faq.php" class="navlink">FAQ</a>
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
 </br>
-<img src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg" width="100%">
-<h2>Contact Us </br> We will get back to you as soon as possible.</h2>
+<img id="contactphoto" src="http://www.buffaloeats.org/wp-content/uploads/2014/09/barbill4-1024x682.jpg">
+<div id="CUH">
+	<h2>Contact Us- we will get back to you as soon as possible.</h2>
+</div>
 <div class="contactform">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="cf-group">
@@ -44,8 +47,8 @@
     </div>
                 <input type="submit" class="button" value="Submit">
     </form> 
-</div>
-</div id=php>
+    </div>
+   </div id=php>
     <?php
     if(isset($_POST['submit'])){
         $name = "";
@@ -82,5 +85,25 @@
         }   
     }
     ?>
+    <footer>
+        <div class="footer">
+            <h2>Our Locations</h2>
+            <p><em>East Aurora Takeout</em><br />
+                191 Main Street, Rear<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>East Aurora</em><br />
+                185 Main Street<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>Clarence</em><br />
+                8326 Main Street<br />
+                Clarence, NY 14221<br />
+                (716) 710-9464
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

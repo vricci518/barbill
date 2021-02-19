@@ -1,42 +1,40 @@
-/* About Us page styling */
-.historyea{
+.about{
     background-color: #FFFFFF85;
     border-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+.about h2{
+    text-align: center;
+    color: #C03832;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.about img{
+    border: 5px solid #C03832;
+    display: block;
     margin: auto;
     width: 90%;
 }
-.historyea h2{
-    color: #C03832;
-    text-align: center;
-    padding-top: 20px;
-}
-.historyea img{
-    display: block;
+.about p{
+    width: 90%;
     margin: auto;
-    border: 5px solid #C03832;
-    width: 75%;
-}
-.historyea p{
-    display: block;
-    margin: auto;
-    width: 85%;
+    padding: 10px 0px 10px 0px;
 }
 .firsttime{
     background-color: #C03832;
-    border-radius: 20px;
+    text-align: center;
     margin: auto;
+    border-radius: 20px;
     width: 90%;
 }
 .firsttime h2{
     color: #FFFFFF;
-    text-align: center;
-    padding-top: 20px;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 .firsttime p{
     color: #FFFFFF;
-    width: 95%;
-    display: block;
+    width: 90%;
     margin: auto;
-    text-align: center;
 }
