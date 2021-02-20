@@ -19,6 +19,7 @@
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
+    <div class="mainhome">
     <div name="home_page_photo">
         <img src="images/barbilltavern.jpg" id="homephoto" alt="bar bill tavern">
     </div>
@@ -94,5 +95,6 @@
             </p>
         </div>
     </footer>
+    </div>
 </body>
 </html>
