@@ -1,12 +1,8 @@
 #homephoto{
     display: block;
     margin: auto;
-}
-#homephoto, #contactphoto{
-    border: 5px solid #C03832;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 .reservation{
     background-color: #FFFFFF85;
@@ -26,13 +22,11 @@
 .location{
     text-align: center;
 }
-
 .location img{
     border: 5px solid #C03832;
     width: 40%;
     margin: 0px 10px 0px 10px;
 }
-
 .location p{
     display: inline-block;
     vertical-align: top;

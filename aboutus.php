@@ -3,13 +3,8 @@
 
 <head>
     <title>ABOUT US - Bar-Bill Tavern - Restaurant in NY</title>
-<<<<<<< HEAD:aboutus.html
-    <link rel="stylesheet" href="barbill.css">
-    <link rel="stylesheet" href="about.css">
-=======
     <link rel="stylesheet" href="css\barbill.css">
     <link rel="stylesheet" href="css\aboutus.css">
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:aboutus.php
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 </head>
 
@@ -18,19 +13,6 @@
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
         <h1>BAR-BILL TAVERN: East Aurora and Clarence, NY</h1><br/>
         <nav>
-<<<<<<< HEAD:aboutus.html
-            <a href="home.html" class="navlink">Home</a>
-            <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
-            <a href="aboutus.html" class="navlink">About Us</a>
-            <a href="faq.html" class="navlink">FAQ</a>
-            <a href="contact.php" class="navlink">Contact Us</a>
-        </nav>
-    </header>
-    <div class="historyea">
-        <h2>HISTORY: The Original East Aurora Bar-Bill</h2>
-        <img src="images/About_EA.jpg" alt="eastaurora" width="100%" /><br />
-=======
             <a href="home.php" class="navlink">Home</a>
             <a href="menu.php" class="navlink">Menu</a>
             <a href="socialmedia.php" class="navlink">Social Media</a>
@@ -40,9 +22,8 @@
         </nav>
     </header>
     <div class="about">
-        <h2>HISTORY: The Original East Aurora Bar-Bill</h2>
+        <h2>About us: History of the Original East Aurora Bar-Bill</h2>
         <img src="images/About_EA.jpg" alt="eastaurora">
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:aboutus.php
         <p>The Bar Bill Tavern has been an institution in East Aurora, NY since the day it opened its doors. Mystery
             surrounds the lore of "the Bill" at almost every telling. Everything from the name, to the famous customer
             vacations to the mug club feature a level of mythology when told at the bar (and elsewhere). The old
@@ -76,15 +57,9 @@
             would love to show you the bar we love: no frills, no pretense, just a place to meet your old friends and
             make some new ones.<br /></p><br />
     </div>
-<<<<<<< HEAD:aboutus.html
-    <div class="historyea">
-        <h2>HISTORY: The New Bar Bill North</h2>
-        <img src="images/About_Cl.jpg" alt="clarence" width="100%"><br />
-=======
     <div class="about">
-        <h2>HISTORY: The New Bar Bill North</h2>
+        <h2>About Us: History of the New Bar Bill North</h2>
         <img src="images/About_Cl.jpg" alt="clarence" width="100%">
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:aboutus.php
         <p>What is now Bar-Bill North was formerly the well-known old Red Mill Inn. The structure was built in 1858 and
             interestingly enough, was never actually a functioning mill. It served as the main house for a 100 acre
             dairy farm until 1962 when it was transformed into a restaurant. In 1967, the business expanded by adding a
@@ -96,22 +71,6 @@
     </div>
     <div class="firsttime">
         <h2>First Timers</h2>
-<<<<<<< HEAD:aboutus.html
-        <p>--WE DO NOT ACCEPT CREDIT CARDS--<br />
-            So coming with cash always makes for an easier transaction. We have an ATM located in the bar if you forget,
-            so you're never totally stuck.<br />
-            --WHEN YOU ORDER--<br />
-            Make sure you get at least one order of wings to share. You will not be disappointed, they are world famous!
-            We only serve beef until 10pm, so get there early! The thing to remember above all else is you will always
-            have fun with the right attitude. First timers should prepare themselves to have a new fvorite place!
-        </p><br />
-    </div>
-    <footer>
-        <div class="ourloc">
-            <h2>Our Locations</h2>
-        </div>
-        <div class="loc">
-=======
         <p>-WE DO NOT ACCEPT CREDIT CARDS-<br>
             So coming with cash always makes for an easier transaction. We have an ATM located in the bar if you forget,
 
@@ -126,29 +85,16 @@
     <footer>
         <div class="footer">
             <h2>Our Locations</h2>
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:aboutus.php
             <p><em>East Aurora Takeout</em><br />
                 191 Main Street, Rear<br />
                 East Aurora, NY 14052<br />
                 (716) 652-7959
             </p>
-<<<<<<< HEAD:aboutus.html
-        </div>
-        <div class="loc">
-            <p><em>East Aurora</em><br />
-                185 Main Street<br />
-                East Aurora, NY 14052<br />
-                (716) 652-7959<br />
-            </p>
-        </div>
-        <div class="loc">
-=======
             <p><em>East Aurora</em><br />
                 185 Main Street<br />
                 East Aurora, NY 14052<br />
                 (716) 652-7959
             </p>
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:aboutus.php
             <p><em>Clarence</em><br />
                 8326 Main Street<br />
                 Clarence, NY 14221<br />

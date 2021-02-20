@@ -1,37 +1,33 @@
 /* Google font assignment */
 
-body{
+body {
     font-family: "Oswald", sans-serif;
     background-color: #2A53A280;
 }
 
 /* Header  Logo and Navigation Bar Links */
 
-header{
+header {
     background-color: #2A53A2;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
-
-
-#logo{
+#logo {
     display: inline-block;
-
     width: 10%;
-
     padding: 20px 30px 20px 0px;
     vertical-align: middle;
 }
 
-h1{
+h1 {
     display: inline-block;
     font-weight: bold;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.navlink{
+.navlink {
     display: inline-block;
     width: 12%;
     padding: 15px;
@@ -43,10 +39,12 @@ h1{
     text-transform: uppercase;
     margin: 0px 10px 25px 0px;
 }
-.navlink:hover{
+
+.navlink:hover {
     background-color: #C03832;
 }
-.button{
+
+.button {
     background-color: #2A53A2;
     color: #fff;
     font-family: "Oswald", sans-serif;
@@ -55,40 +53,40 @@ h1{
     border: none;
     margin: 20px 10px 25px 0px;
 }
-.button:hover{
+
+.button:hover {
     background-color: #C03832;
 }
-.pbottom{
+
+.pbottom {
     margin-top: 500px;
 }
-.footer p{
+
+.footer p {
     width: 30%;
     display: inline-block;
 }
 
 /* Social Media */
 
-
-
-.pbottom{
+.pbottom {
     margin-top: 500px;
 }
 
 /* Footer */
 
-.footer{
+.footer {
     background-color: #2A53A2;
     color: #FFFFFF;
     text-align: center;
 }
 
-.footer h2{
+.footer h2 {
     padding-top: 20px;
     text-transform: uppercase;
 }
 
-.footer p{
+.footer p {
     width: 30%;
     display: inline-block;
 }
-

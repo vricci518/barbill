@@ -8,17 +8,6 @@
 </head>
 <body>
     <header>
-<<<<<<< HEAD:home.html
-        <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo" width="10%">
-        <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
-
-        <nav>
-            <a href="home.html" class="navlink">Home</a>
-            <a href="menu.html" class="navlink">Menu</a>
-            <a href="takeout.html" class="navlink">Take Out</a>
-            <a href="aboutus.html" class="navlink">About Us</a>
-            <a href="faq.html" class="navlink">FAQ</a>
-=======
         <img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
         <h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br/>
         <nav>
@@ -27,7 +16,6 @@
             <a href="socialmedia.php" class="navlink">Social Media</a>
             <a href="aboutus.php" class="navlink">About Us</a>
             <a href="faq.php" class="navlink">FAQ</a>
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:home.php
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
@@ -87,37 +75,18 @@
         </div>
     </div>
     <footer>
-<<<<<<< HEAD:home.html
-        <div class="ourloc">
-            <h2>Our Locations</h2>
-        </div>
-        <div class="loc">
-=======
         <div class="footer">
             <h2>Our Locations</h2>
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:home.php
             <p><em>East Aurora Takeout</em><br />
                 191 Main Street, Rear<br />
                 East Aurora, NY 14052<br />
                 (716) 652-7959
             </p>
-<<<<<<< HEAD:home.html
-        </div>
-        <div class="loc">
-            <p><em>East Aurora</em><br />
-                185 Main Street<br />
-                East Aurora, NY 14052<br />
-                (716) 652-7959<br />
-            </p>
-        </div>
-        <div class="loc">
-=======
             <p><em>East Aurora</em><br />
                 185 Main Street<br />
                 East Aurora, NY 14052<br />
                 (716) 652-7959
             </p>
->>>>>>> 2caf866fa98c84a63ac5f3356233cf23ea1bc885:home.php
             <p><em>Clarence</em><br />
                 8326 Main Street<br />
                 Clarence, NY 14221<br />
