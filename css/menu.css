@@ -15,12 +15,14 @@
     margin: auto;
     width: 90%;
 }
-.menu h2{
+
+.menu h2 {
     color: #C03832;
     text-align: center;
     text-transform: uppercase;
     padding: 20px 0px 20px 0px;
 }
+
 .menupic {
     display: inline-block;
     margin: 0px 20px 30px 50px;
@@ -32,6 +34,7 @@
     vertical-align: top;
     width: 60%;
 }
+
 .salad {
     display: inline-block;
     vertical-align: top;

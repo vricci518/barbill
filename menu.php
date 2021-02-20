@@ -63,83 +63,83 @@
                 $11.95
             </p>
         </div>
-</div>
-        <div class="menu">
-            <h2>Starters</h2>
-            <div class="menupic">
-                <img src="images/breadsticks.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>BAR-BILL CHEESY BREADSTICKS</b><br />
-                    Breadsticks covered in Bar-Bill's famous Sicilian sauce and melted Mozzarella Cheese. Served with Sicilian sauce and Marinara.<br/>
-                    $8.95
-                </p>
-            </div>
-            <div class="salad">
-                <p><b>FRESH MOZZARELLA SALAD</b><br />
-                    With Tomatoes, Baby Spinach, Red Onions and Creamy Balsamic dressing.<br/>
-                    $7.95
-                </p>
-            </div>
-            <div class="salad">
-                <p><b>CHEF SALAD</b><br />
-                    Spring mix, Tomatoes, Onions, Croutons and Mozzarella Cheese.<br/>
-                    Choose: Ranch, Honey Mustard, Creamy Balsamic, or Italian
-                    $6.95
-                </p>
-            </div>
+    </div>
+    <div class="menu">
+        <h2>Starters</h2>
+        <div class="menupic">
+            <img src="images/breadsticks.jpg" alt="chicken wings">
         </div>
-            <div class="menu">
-            <h2>Other Good Stuff</h2>
-            <div class="menupic">
-                <img src="images/chickensandwich.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>CHICKEN SANDWICH</b><br />
-                    Breaded filet on a Kaiser Roll served with Waffle Fries, Honey Mustard and a Pickle. Add Cheese, Tomato  and Onion. (Regular or Buffalo Style)<br/>
-                    $10.95
-                </p>
-            </div>
-            <div class="menupic">
-                <img src="images/breadedshrimp.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>BREADED SHRIMP</b><br />
-                    Butterflied and Fried Shrimp served with Waffle Fries and Sweet Chili dipping sauce.<br/>
-                    $10.95
-                </p>
-            </div>
-            <div class="menupic">
-                <img src="images/chickenwingpizza.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>BAR-Bill CHICKEN WING PIZZA</b><br />
-                    Wing Chicken, Mozzarella Cheese and Spicy Blue Cheese sauce.<br/>
-                    $10.95
-                </p>
-            </div>
-            <div class="menupic">
-                <img src="images/pepperonipizza.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>PEPPERONI PIZZA</b><br />
-                    Cheese and Pepperoni (10").<br/>
-                    $9.95
-                </p>
-            </div>
-            <div class="menupic">
-                <img src="images/fries.jpg" alt="chicken wings">
-            </div>
-            <div class="menutext">
-                <p><b>FRIES</b><br />
-                    All battered and seasoned.<br/>
-                    Choose: Waffle, Shoe String, Beer Battered, or Sweet Potato
-                    $3.95
-                </p>
-            </div>
+        <div class="menutext">
+            <p><b>BAR-BILL CHEESY BREADSTICKS</b><br />
+                Breadsticks covered in Bar-Bill's famous Sicilian sauce and melted Mozzarella Cheese. Served with Sicilian sauce and Marinara.<br />
+                $8.95
+            </p>
+        </div>
+        <div class="salad">
+            <p><b>FRESH MOZZARELLA SALAD</b><br />
+                With Tomatoes, Baby Spinach, Red Onions and Creamy Balsamic dressing.<br />
+                $7.95
+            </p>
+        </div>
+        <div class="salad">
+            <p><b>CHEF SALAD</b><br />
+                Spring mix, Tomatoes, Onions, Croutons and Mozzarella Cheese.<br />
+                Choose: Ranch, Honey Mustard, Creamy Balsamic, or Italian
+                $6.95
+            </p>
+        </div>
+    </div>
+    <div class="menu">
+        <h2>Other Good Stuff</h2>
+        <div class="menupic">
+            <img src="images/chickensandwich.jpg" alt="chicken wings">
+        </div>
+        <div class="menutext">
+            <p><b>CHICKEN SANDWICH</b><br />
+                Breaded filet on a Kaiser Roll served with Waffle Fries, Honey Mustard and a Pickle. Add Cheese, Tomato and Onion. (Regular or Buffalo Style)<br />
+                $10.95
+            </p>
+        </div>
+        <div class="menupic">
+            <img src="images/breadedshrimp.jpg" alt="chicken wings">
+        </div>
+        <div class="menutext">
+            <p><b>BREADED SHRIMP</b><br />
+                Butterflied and Fried Shrimp served with Waffle Fries and Sweet Chili dipping sauce.<br />
+                $10.95
+            </p>
+        </div>
+        <div class="menupic">
+            <img src="images/chickenwingpizza.jpg" alt="chicken wings">
+        </div>
+        <div class="menutext">
+            <p><b>BAR-Bill CHICKEN WING PIZZA</b><br />
+                Wing Chicken, Mozzarella Cheese and Spicy Blue Cheese sauce.<br />
+                $10.95
+            </p>
+        </div>
+        <div class="menupic">
+            <img src="images/pepperonipizza.jpg" alt="chicken wings">
+        </div>
+        <div class="menutext">
+            <p><b>PEPPERONI PIZZA</b><br />
+                Cheese and Pepperoni (10").<br />
+                $9.95
+            </p>
+        </div>
+        <div class="menupic">
+            <img src="images/fries.jpg" alt="chicken wings">
+        </div>
+        <div class="menutext">
+            <p><b>FRIES</b><br />
+                All battered and seasoned.<br />
+                Choose: Waffle, Shoe String, Beer Battered, or Sweet Potato
+                $3.95
+            </p>
+        </div>
 
-            </div>
-        </div>
+    </div>
+    </div>
 
     </div>
 
