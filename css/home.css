@@ -1,4 +1,10 @@
+.mainhome {
+    margin-top: 230px;
+    height: auto;
+}
+
 #homephoto{
+
     display: block;
     margin: auto;
     max-width: 100%;

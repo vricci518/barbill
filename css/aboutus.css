@@ -1,3 +1,8 @@
+
+.mainabout {
+    margin-top: 260px;
+    height: auto;
+}
 .about{
     background-color: #FFFFFF85;
     border-radius: 20px;
@@ -19,7 +24,7 @@
 .about p{
     width: 90%;
     margin: auto;
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
 }
 .firsttime{
     background-color: #C03832;

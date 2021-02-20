@@ -8,9 +8,12 @@ body {
 /* Header  Logo and Navigation Bar Links */
 
 header {
+    overflow: hidden;
     background-color: #2A53A2;
     text-align: center;
-    width: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #logo {

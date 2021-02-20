@@ -20,6 +20,7 @@
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
+    <div class="maincontact">
     </br>
     <div id="CUH">
         <h2>Contact Us- we will get back to you as soon as possible.</h2>
@@ -112,6 +113,7 @@
             </p>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

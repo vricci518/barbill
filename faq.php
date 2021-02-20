@@ -20,6 +20,7 @@
             <a href="contact.php" class="navlink">Contact Us</a>
         </nav>
     </header>
+<div class="mainfaq">
 <div id="FAQtitle">
 <h2>Frequently Asked Questions</h2>
 </div>
@@ -164,5 +165,6 @@
         </p>
     </div>
 </footer>
+</div>
 </body>
 </html>
