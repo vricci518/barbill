@@ -1,0 +1,43 @@
+#menuheader {
+    background-color: #FFFFFF85;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 60px;
+    color: #C03832;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu {
+    background-color: #FFFFFF85;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.menu h2 {
+    color: #C03832;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px 20px 0px;
+}
+
+.menupic {
+    display: inline-block;
+    margin: 0px 20px 30px 50px;
+    vertical-align: top;
+}
+
+.menutext {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+
+.salad {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin: 0px 20px 30px 50px;
+}

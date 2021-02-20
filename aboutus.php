@@ -22,7 +22,7 @@
         </nav>
     </header>
     <div class="about">
-        <h2>HISTORY: The Original East Aurora Bar-Bill</h2>
+        <h2>About us: History of the Original East Aurora Bar-Bill</h2>
         <img src="images/About_EA.jpg" alt="eastaurora">
         <p>The Bar Bill Tavern has been an institution in East Aurora, NY since the day it opened its doors. Mystery
             surrounds the lore of "the Bill" at almost every telling. Everything from the name, to the famous customer
@@ -30,44 +30,44 @@
             building at 185 Main Street has stood for over 150 years. Originally opened by Barb and Bill (hence the
             name) Korzelius, the tavern replaced a small Ice Cream shop on the west end of Main St. The bar featured
             Beef on Weck as it's only food option, as well as a limited drink list. When Joe Giafaglione bought the bar
-            in 1977, he had much bigger plans.</p>
+            in 1977, he had much bigger plans.</p><br />
         <p>Joe, a former engineer at Bell Aerospace, decided that corporate life wasn't for him. When he heard that the
             bar was being put up for sale, he jumped at the opportunity. Within a year or two, Joe introduced what would
             become an integral part of the Bar Bill experience, the mug club. For a nominal fee, patrons would receive a
             custom printed mug including the name of their choosing and their mugs chronological number. The first order
             included 20 mugs and filled one small shelf behind the bar. The club now boasts more than 4000 members, with
-            most of the mugs still residing in the small bar.</p>
+            most of the mugs still residing in the small bar.</p><br />
         <p>In 1983 Joe opened his kitchen, serving chicken wings along with the beef. He developed his now world famous
             sauces in the tiny kitchen as he worked. Joe would very quickly transform the bars reputation from rugged
             watering hole to one of the city's best, topping many "best wings" lists throughout the area. Today,
             thousands of people from every walk of life come to see for themselves if the wings live up to their
             reputation. Actors, NFL Players, and Local Celebrities sit among bar regulars and enjoy wings and a few
-            drinks together.</p>
+            drinks together.</p><br />
         <p>Another famous part of the bar's history is its customer appreciation. Joe began the tradition with massive
             parties in the area with live music, food and drink and entertainment. This eventually led to a vacation in
             Syracuse to see a concert with his staff and regular customers. So much fun was had that they decided to go
             on a full fledge vacation to the Caribbean. Every customer pitched in a little money, and they all enjoyed
             an all-inclusive beach getaway. Joe now claims that they've gone on so many trips to date that they've hit
-            every island in the Caribbean and more.</p>
+            every island in the Caribbean and more.</p><br />
         <p>In 2011, Joe made the decision to retire after 35 years at the bar. He found a buyer in his niece Katie and
             her husband Clark Crook. The pair now runs the bar with their sons John and Harry along with manager Joe
             Morcelle, keeping the business in the family. This ideology definitely continues the enduring comfort and
             endearing value that Joe created in the 1970s. If you haven't had the chance to experience the Bar-Bill yet,
             come down and visit. The bar continues to be filled with new comers, old friends, and a dedicated staff. We
             would love to show you the bar we love: no frills, no pretense, just a place to meet your old friends and
-            make some new ones.<br /></p>
+            make some new ones.<br /></p><br />
     </div>
     <div class="about">
-        <h2>HISTORY: The New Bar Bill North</h2>
+        <h2>About Us: History of the New Bar Bill North</h2>
         <img src="images/About_Cl.jpg" alt="clarence" width="100%">
         <p>What is now Bar-Bill North was formerly the well-known old Red Mill Inn. The structure was built in 1858 and
             interestingly enough, was never actually a functioning mill. It served as the main house for a 100 acre
             dairy farm until 1962 when it was transformed into a restaurant. In 1967, the business expanded by adding a
-            new kitchen and updating decor.</p>
+            new kitchen and updating decor.</p><br />
         <p>Fast forward to 2017. Clark and Katie Crook, along with sons John and Harry, scouted out their second
             location for the iconic Bar-Bill Tavern. They knew that this property was a big undertaking, but Clarence
             seemed like the perfect fit for the expansion of the original. Bar-Bill North officially opened to the
-            public in January of 2020, serving our world famous Chicken Wings and Beef on Weck!</p>
+            public in January of 2020, serving our world famous Chicken Wings and Beef on Weck!</p><br />
     </div>
     <div class="firsttime">
         <h2>First Timers</h2>
