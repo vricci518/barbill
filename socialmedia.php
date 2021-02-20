@@ -28,19 +28,19 @@
             <div id="SMFace">
                 <h2>Facebook</h2>
                 <a href="https://www.facebook.com/BarBillTavern" target="_blank">
-                    <img src="images/bbfacebook.jpg"  width="300" height="300"/>
+                    <img src="images/bbfacebook.jpg"/>
                 </a>
             </div>
             <div id="SMInsta">
                 <h2>Instagram</h2>
                 <a href="https://www.instagram.com/barbilltavern/" target="_blank">
-                    <img src="images/bbinsta.jpg"  width="300" height="300"/>
+                    <img src="images/bbinsta.jpg"/>
                 </a>
             </div>
             <div id="SMTwitter">
                 <h2>Twitter</h2>
                 <a href="https://twitter.com/barbilltavern?lang=en" target="_blank">
-                    <img src="images/bbtwitter.jpg" width="300" height="300"/>
+                    <img src="images/bbtwitter.jpg"/>
                 </a>
             </div>
     </div>
