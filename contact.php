@@ -56,38 +56,37 @@
         $comment= trim($_POST['comment']);
         $location= trim($_POST['location']);
 	}
+		$errors =  array('name' =>'', 'email' =>'', 'phone' =>'', 'comment' =>'', 'location' =>'');
+
 		$_POST = filter_var($_POST, \FILTER_CALLBACK, ['options' => 'trim']);
-		$submitsuccess = "thank you";
 
         if(!empty($_POST["name"])){
             $name = $_POST['name'];
         }else {
-            echo "<h2> Name is Required</h2>";
+            echo $errors['name'] ="<h2> Name is Required</h2>";
         }   
 		if(!empty($_POST["email"])){
             $name = $_POST['email'];
         }else {
-            echo "<h2> Email is Required</h2>";
+            echo $errors['email'] ="<h2> Email is Required</h2>";
         }   
         if(!empty($_POST["phone"])){
             $phone = $_POST['phone'];
         }else {
-            echo "<h2> Phone Number is Required</h2>";
+            echo $errors['phone'] ="<h2> Phone Number is Required</h2>";
         }   
         if(!empty($_POST["comment"])){
             $comment = $_POST['comment'];
         }else {
-            echo "<h2> Please provide a comment</h2>";
+            echo $errors['comment'] ="<h2> Please provide a comment</h2>";
         }   
         if(!empty($_POST["location"])){
             $location = $_POST['location'];
         }else {
-            echo "<h2> Location is Required</h2>";
+            echo $errors['location'] ="<h2> Location is Required</h2>";
 		}
-		if($_POST['submit']){
-			if (mail ($name, $email, $phone, $location)) { 
-			   echo $submitsuccess;
-			}
+		if(!array_filter($errors)){
+			echo "<h2>Thank you!</h2>";
 		}
     ?>
     <footer>
