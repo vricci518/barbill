@@ -42,7 +42,7 @@
             echo $errors['name'] = "<h2> Name is Required</h2>";
         }
         if (!empty($_POST["email"])) {
-            $name = trim($_POST['email']);
+            $email = trim($_POST['email']);
         } else {
             echo $errors['email'] = "<h2> Email is Required</h2>";
         }
@@ -57,7 +57,7 @@
             echo $errors['comment'] = "<h2> Please provide a comment</h2>";
         }
         if (!empty($_POST["location"])) {
-            $location = trim($_POST['location']);
+            $location = $_POST['location'][0];
         } else {
             echo $errors['location'] = "<h2> Location is Required</h2>";
         }
@@ -70,20 +70,20 @@
     <div class="contactform">
         <form action="contact.php" method="post">
             <div class="cf-group">
-                <label>Name:</label><input type="text" name="name" value="<?php echo isset($_POST["name"]) ? $_POST["name"] : ''; ?>"></br>
+                <label>Name:</label><input type="text" name="name" value="<?=( $name ?? ''); ?>"></br>
             </div>
             <div class="cf-group">
-                <label>E-mail:</label><input type="text" name="email" value="<?php echo isset($_POST["email"]) ? $_POST["email"] : ''; ?>"></br>
+                <label>E-mail:</label><input type="text" name="email" value="<?=( $email ?? ''); ?>"></br>
             </div>
             <div class="cf-group">
-                <label>Phone:</label><input type="text" name="phone" value="<?php echo isset($_POST["phone"]) ? $_POST["phone"] : ''; ?>"></br>
+                <label>Phone:</label><input type="text" name="phone" value="<?=( $phone ?? ''); ?>"></br>
             </div>
             <div class="cf-group">
-                <label>Comment:</label><textarea name="comment" rows="5" cols="50"></textarea></br>
+                <label>Comment:</label><textarea type="text" name="comment" rows="5" cols="50"><?=( $comment ?? ''); ?></textarea></br>
             </div>
             <div class="cf-group">
-                <label>Location:</label><input type="radio" name="location" value="EA">East Aurora
-                <input type="radio" name="location" value="CL">Clarence </br>
+                <label>Location:</label><input type="radio" value="EA" name="location[]"<?= (!empty($location)&&$location=="EA" ? 'checked' : ''); ?> >East Aurora
+                <input type="radio" value="CL" name="location[]" <?= (!empty($location)&&$location=="CL" ? 'checked' : ''); ?>>Clarence </br>
             </div>
             <div class="cf-group">
                 <label for="myfile">Select a file:</label>
