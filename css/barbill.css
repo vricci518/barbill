@@ -8,7 +8,6 @@ body {
 /* Header  Logo and Navigation Bar Links */
 
 header {
-    overflow: hidden;
     background-color: #2A53A2;
     text-align: center;
     position: fixed;
@@ -29,24 +28,81 @@ h1 {
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
-.navlink {
-    display: inline-block;
-    width: 12%;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #FFFFFF85;
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0px 10px 25px 0px;
+.nav-item{
+    margin: 0 20px;
 }
-
-.navlink:hover {
+/* background of nav bar*/
+.navbar-custom {
+    background-color: #2A53A2;
+}
+.btn.btn-primary.btn-lg{
+    background-color: #c2d1ef;
+    color:#2A53A2;
+}
+.btn:hover.btn-primary:hover.btn-lg {
+    background-color: #c2d1ef;
+}
+.btn:hover.btn-primary:hover.btn-lg:hover{
     background-color: #C03832;
 }
+.nav-item {
+    /* display: inline-block; */
+    /* width: 12%; */
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    /* background-color: #FFFFFF85; */
+    /* color: black; */
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    /* margin: 0px 10px 25px 0px; */
+}
+.dropdown-menu.show{
+    background-color: #3563c0;
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown-menu {
+    margin: 0px;
+}
+.dropdown-menu li{
 
+    padding: 10px;
+    text-align: center;
+
+
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-menu li:hover{
+    background-color: #C03832;
+}
+.dropdown-item:hover{
+    background-image: none;
+    background-color:#C03832; 
+
+}
+/*.drop-content {
+    position: fixed;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 25px 0px;
+    background-color: #f1f1f1;
+    overflow: visible;
+  }*/
+/* .nav-item:hover { */
+    /* background-color: #C03832; */
+/* } */
+/* .navlink:hover .drop-content{ */
+    /* display: block; */
+/* } */
+/* .drop-content:hover{ */
+    /* display: block; */
+/* } */
 .button {
     background-color: #2A53A2;
     color: #fff;
