@@ -9,9 +9,10 @@
 	<link rel="stylesheet" href="css/barbill.css">
 	<link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
 	<header>
-	<img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
+		<img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
 		<h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
 			<div class="container-fluid">
@@ -24,14 +25,14 @@
 							<a class="btn btn-primary btn-lg" class="nav-link active" aria-current="page" href="home.php">Home</a>
 						</li>
 						<li class="nav-item dropdown">
-						<a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Menus
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a href="menu.php">menu</a></li>
-								<li><a href="#">menu2</a></li>
-								<li><a href="#">menu3</a></li>
-								<li><a href="#">menu4</a></li>
+								<li><a class="dropdown-item" href="eamenu.php">East Aurora Menu</a></li>
+								<li><a class="dropdown-item" href="eatakeout.php">East Aurora Take Out</a></li>
+								<li><a class="dropdown-item" href="clmenu.php">Clarence Menu</a></li>
+								<li><a class="dropdown-item" href="cltakeout.php">Clarence Take Out</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
