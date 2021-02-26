@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<header>
+<header class="sticky-top">
 		<img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
 		<h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
@@ -43,9 +43,9 @@
 								Info
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a class="dropdown-item" href="aboutus.php">About Us</a></li>
-								<li><a class="dropdown-item" href="faq.php">FAQ</a></li>
-								<li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+								<li><a href="aboutus.php">About Us</a></li>
+								<li><a href="faq.php">FAQ</a></li>
+								<li><a href="contact.php">Contact Us</a></li>
 							</ul>
 						</li>
 					</ul>
