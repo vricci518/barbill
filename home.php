@@ -68,23 +68,23 @@
 			</div>
 		</div>
 	</div>
-	<br>
+	<br />
 	<div class="container">
 		<div class="reservation container">
 			<h2>Dining Reservations</h2>
 			<h3>We are open for dining at both Bar-Bill locations! Reservations are strongly encouraged as we are operating
 				at 50% capacity. Book your table through our website now!</h3>
 			<div class="row">
-				<div class="col col-lg-6 col-sm-12 col-xs-12">
-					<img src="images/Loc_EastAurora.jpg" alt="east aurora">
-					<p><b>EAST AURORA RESERVATIONS</b><br />
+				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<img src="images/Loc_EastAurora.jpg" class="mx-auto" alt="east aurora">
+					<p class="text-center"><b>EAST AURORA RESERVATIONS</b><br />
 						Open Monday - Sunday 11:30 am til 10:00 pm (Last Seating at 8:45 pm)<br />
 						-ONLINE RESERVATIONS ONLY-
 					</p>
 				</div>
-				<div class="col col-lg-6 col-sm-12 col-xs-12">
-					<img src="images/Loc_Clarence.jpg" alt="clarence">
-					<p><b>CLARENCE RESERVATIONS</b><br />
+				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<img src="images/Loc_Clarence.jpg" class="mx-auto" alt="clarence">
+					<p class="text-center"><b>CLARENCE RESERVATIONS</b><br />
 						Open Monday - Saturday 11:30 am til 10:00 pm (Last Seating at 8:30 pm)<br />
 						Sunday 11:30 am - 8:00 pm<br />
 						-ONLINE RESERVATIONS ONLY-
@@ -95,17 +95,17 @@
 		<div class="reservation container">
 			<h2>Curbside Takeout</h2>
 			<div class="row">
-				<div class="col col-lg-6 col-sm-12 col-xs-12">
-					<img src="images/to_eastaurora.jpg" alt="east aurora take out">
-					<p><b>EAST AURORA TAKEOUT</b><br />
+				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<img src="images/to_eastaurora.jpg" class="mx-auto" alt="east aurora take out">
+					<p class="text-center"><b>EAST AURORA TAKEOUT</b><br />
 						Available Daily 11:30 am til 9:00 pm<br />
 						Offering online or phone orders. Curbside pickup only.<br />
 						-WE DO NOT ACCEPT PRE-ORDERS, ONLY ORDERS IN REAL TIME-
 					</p>
 				</div>
-				<div class="col col-lg-6 col-sm-12 col-xs-12">
-					<img src="images/to_clarence.jpg" alt="clarence take out">
-					<p><b>CLARENCE TAKEOUT</b><br />
+				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<img src="images/to_clarence.jpg" class="mx-auto" alt="clarence take out">
+					<p class="text-center"><b>CLARENCE TAKEOUT</b><br />
 						Available Sunday - Thursday 11:30 am til 7:30 pm<br />
 						Offering online orders only. Curbside pickup only.<br />
 						-WE DO NOT ACCEPT PRE-ORDERS, ONLY ORDERS IN REAL TIME-
@@ -117,17 +117,17 @@
 			<h2>Gift Cards and Merch</h2>
 			<div class="location">
 				<div class="row">
-					<div class="col col-lg-6 col-sm-12 col-xs-12">
-						<img src="images/bb_giftcard.jpg" alt="gift card">
-						<p><b>GIFT CARDS</b><br />
+					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+						<img src="images/bb_giftcard.jpg" class="mx-auto" alt="gift card">
+						<p class="text-center"><b>GIFT CARDS</b><br />
 							E-Cards always available or pull up curbside<br />
 							to purchase a swipeable giftcard<br />
 							-CARDS ARE REDEEMABLE AT BOTH LOCATIONS AND 189 BURGER-
 						</p>
 					</div>
-					<div class="col col-lg-6 col-sm-12 col-xs-12">
-						<img src="images/bb_merch.jpg" alt="merch">
-						<p><b>PICK UP OR SHIP OUR MERCH</b><br />
+					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+						<img src="images/bb_merch.jpg" class="mx-auto" alt="merch">
+						<p class="text-center"><b>PICK UP OR SHIP OUR MERCH</b><br />
 							Purchase Bar-Bill Merch to pick up curbside
 							through our online ordering<br />
 							-OR- Ship our march antionwide
@@ -136,6 +136,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 		<footer class="container-fluid">
 			<div class="footer">
 				<h2>Our Locations</h2>

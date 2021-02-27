@@ -19,11 +19,9 @@
     text-align: center;
     margin: auto 5%;
 }
-.col{
-    text-align: center;
-}
 
 .col img{
+    display: block;
     border: 5px solid #C03832;
     width: 75%;
     margin: 2%;
