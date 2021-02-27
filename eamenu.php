@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<header class="sticky-top">
+<header class="sticky-top">
 		<img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
 		<h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
