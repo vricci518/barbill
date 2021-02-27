@@ -57,13 +57,13 @@
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern">
+					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern"/>
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings">
+					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings"/>
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich">
+					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich"/>
 				</div>
 			</div>
 		</div>

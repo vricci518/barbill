@@ -52,7 +52,7 @@
                 </div>
             </div>
         </nav>
-    </header><br>
+    </header><br />
     <div class="container-fluid">
         <div class="container-fluid about">
             <h2>About us: History of the Original East Aurora Bar-Bill</h2>
