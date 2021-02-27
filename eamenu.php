@@ -53,9 +53,9 @@
 			</div>
 		</nav>
 	</header>
-	<div class="mainmenu">
+	<div class="container-fluid mainmenu">
 		<h2 id="menuheader">East Aurora Menu</h2>
-		<div class="menu">
+		<div class="container-fluid menu">
 			<h2>What We're Famous For</h2>
 			<div class="menupic">
 				<img src="images/wingsbeer.jpg" alt="chicken wings">
@@ -97,7 +97,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="menu">
+		<div class="container-fluid menu">
 			<h2>Starters</h2>
 			<div class="menupic">
 				<img src="images/breadsticks.jpg" alt="chicken wings">
@@ -122,7 +122,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="menu">
+		<div class="container-fluid menu">
 			<h2>Other Good Stuff</h2>
 			<div class="menupic">
 				<img src="images/chickensandwich.jpg" alt="chicken wings">
@@ -173,7 +173,7 @@
 		</div>
 	</div>
 	</div>
-	<footer>
+	<footer class="container-fluid">
 		<div class="footer">
 			<h2>Our Locations</h2>
 			<p><em>East Aurora Takeout</em><br />
