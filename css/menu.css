@@ -1,11 +1,25 @@
 
 #menuheader {
     background-color: #FFFFFF85;
-    width: 25%;
+    width: 30%;
     border-radius: 20px;
     padding: 20px 20px 20px 20px;
     margin: 20px 60px;
     color: #C03832;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.to {
+    background-color: #C03832;
+    width: 90%;
+    border-radius: 20px;
+    padding: 2%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.to h3 {
     text-align: center;
     text-transform: uppercase;
 }
@@ -24,21 +38,21 @@
     padding: 20px 0px 20px 0px;
 }
 
-.menupic {
-    display: inline-block;
-    margin: 0px 20px 30px 50px;
-    vertical-align: top;
-}
-
-.menutext {
-    display: inline-block;
-    vertical-align: top;
-    width: 60%;
-}
-
 .salad {
     display: inline-block;
     vertical-align: top;
-    width: 40%;
-    margin: 0px 20px 30px 50px;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.col img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0% 0% 5% 15%;
+}
+
+.col p {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
 }

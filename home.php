@@ -43,9 +43,9 @@
 								Info
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a href="aboutus.php">About Us</a></li>
-								<li><a href="faq.php">FAQ</a></li>
-								<li><a href="contact.php">Contact Us</a></li>
+								<li><a class="dropdown-item" href="aboutus.php">About Us</a></li>
+								<li><a class="dropdown-item" href="faq.php">FAQ</a></li>
+								<li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -57,13 +57,13 @@
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern"/>
+					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern" />
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings"/>
+					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings" />
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich"/>
+					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich" />
 				</div>
 			</div>
 		</div>
@@ -137,27 +137,27 @@
 			</div>
 		</div>
 	</div>
-		<footer class="container-fluid">
-			<div class="footer">
-				<h2>Our Locations</h2>
-				<p><em>East Aurora Takeout</em><br />
-					191 Main Street, Rear<br />
-					East Aurora, NY 14052<br />
-					(716) 652-7959
-				</p>
-				<p><em>East Aurora</em><br />
-					185 Main Street<br />
-					East Aurora, NY 14052<br />
-					(716) 652-7959
-				</p>
-				<p><em>Clarence</em><br />
-					8326 Main Street<br />
-					Clarence, NY 14221<br />
-					(716) 710-9464
-				</p>
-			</div>
-		</footer>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<footer class="container-fluid">
+		<div class="footer">
+			<h2>Our Locations</h2>
+			<p><em>East Aurora Takeout</em><br />
+				191 Main Street, Rear<br />
+				East Aurora, NY 14052<br />
+				(716) 652-7959
+			</p>
+			<p><em>East Aurora</em><br />
+				185 Main Street<br />
+				East Aurora, NY 14052<br />
+				(716) 652-7959
+			</p>
+			<p><em>Clarence</em><br />
+				8326 Main Street<br />
+				Clarence, NY 14221<br />
+				(716) 710-9464
+			</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
