@@ -1,11 +1,4 @@
 
-#homephoto{
-
-    display: block;
-    margin: 0px auto 20px;
-    max-width: 100%;
-    height: auto;
-}
 .reservation{
     background-color: #FFFFFF85;
     border-radius: 20px;
@@ -20,17 +13,18 @@
 }
 .reservation h3{
     text-align: center;
+    margin: auto 5%;
 }
-.location{
-    text-align: center;
-}
-.location img{
+
+.col img{
+    display: block;
     border: 5px solid #C03832;
-    width: 40%;
-    margin: 0px 10px 0px 10px;
+    width: 75%;
+    margin: 2%;
 }
-.location p{
+.col p{
     display: inline-block;
     vertical-align: top;
-    width: 45%;
+    width: 100%;
+    margin: 2%;
 }
