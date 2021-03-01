@@ -1,0 +1,11 @@
+.card-img-top {
+    
+    width: 320px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
+#headerimg{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
