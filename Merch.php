@@ -58,7 +58,7 @@
             <div class="card mb-3">
                 <img src="images/merch_header.webp" class="card-img-top" id="headerimg" alt="Merchandise header">
                 <div class="card-body">
-                    <h1 class="card-title">Merchandise</h1>
+                    <h1 class="card-title text-dark">Merchandise</h1>
                     <p class="card-text">Effective June 1, 2020 Bar-Bill has suspended all returns or exchanges on any Bar-Bill merchandise or apparel purchased during this time. This change is for the health and safety of our employees and customers. Thank you for understanding!</p>
                     <p class="card-text"><small class="text-muted">April 2020</small></p>
                 </div>
@@ -67,12 +67,14 @@
     </div>
     <div class="container">
         <div class="row">
-            <h2>New Items</h2>
+            <div class="col-3 my-3">
+                <h2>New Items</h2>
+            </div>
         </div>
         <div class="row">
-            <div class="card-group">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card">
+            <div class="card-group ">
+                <div class="col-sm-6 col-lg-3 h-400">
+                    <div class="card ">
                         <img src="images/merch_new_01.jpg" class="card-img-top" alt="Tie-Dye Shirt">
                         <div class="card-body">
                             <h4 class="card-title">Blue Tie-Dye T-shirt</h4>
@@ -85,7 +87,7 @@
                         <img src="images/merch_new_02.jpg" class="card-img-top" alt="Neon Sweatshirt">
                         <div class="card-body">
                             <h4 class="card-title">Bar-Bill Neon Logo Crewneck Sweatshirt</h4>
-                            <p class="card-text">Unisex, Black with our neon logo, 50% cotton/50% polyester, SM-2XL $35</p>
+                            <p class="card-text">Unisex, SM-2XL $35</p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +116,9 @@
 
     <div class="container">
         <div class="row">
-            <h2>Apparel</h2>
+            <div class="col-3 my-3">
+                <h2>Apparel</h2>
+            </div>
         </div>
         <div class="row">
             <div class="card-group">
@@ -160,10 +164,7 @@
 
     <div class="container">
         <div class="row">
-            <h2>New Items</h2>
-        </div>
-        <div class="row">
-            <div class="card-group">
+            <div class="card-group my-3">
                 <div class="col-sm-6 col-lg-3">
                     <div class="card">
                         <img src="images/merch_apparel_05.jpg" class="card-img-top" alt="Baseball Hat">
