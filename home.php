@@ -75,14 +75,14 @@
 			<h3>We are open for dining at both Bar-Bill locations! Reservations are strongly encouraged as we are operating
 				at 50% capacity. Book your table through our website now!</h3>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/Loc_EastAurora.jpg" class="mx-auto" alt="east aurora">
 					<p class="text-center"><b>EAST AURORA RESERVATIONS</b><br />
 						Open Monday - Sunday 11:30 am til 10:00 pm (Last Seating at 8:45 pm)<br />
 						-ONLINE RESERVATIONS ONLY-
 					</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/Loc_Clarence.jpg" class="mx-auto" alt="clarence">
 					<p class="text-center"><b>CLARENCE RESERVATIONS</b><br />
 						Open Monday - Saturday 11:30 am til 10:00 pm (Last Seating at 8:30 pm)<br />
@@ -95,7 +95,7 @@
 		<div class="reservation container">
 			<h2>Curbside Takeout</h2>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/to_eastaurora.jpg" class="mx-auto" alt="east aurora take out">
 					<p class="text-center"><b>EAST AURORA TAKEOUT</b><br />
 						Available Daily 11:30 am til 9:00 pm<br />
@@ -103,7 +103,7 @@
 						-WE DO NOT ACCEPT PRE-ORDERS, ONLY ORDERS IN REAL TIME-
 					</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/to_clarence.jpg" class="mx-auto" alt="clarence take out">
 					<p class="text-center"><b>CLARENCE TAKEOUT</b><br />
 						Available Sunday - Thursday 11:30 am til 7:30 pm<br />
@@ -117,7 +117,7 @@
 			<h2>Gift Cards and Merch</h2>
 			<div class="location">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<div class="col-sm-12 col-lg-6 col">
 						<img src="images/bb_giftcard.jpg" class="mx-auto" alt="gift card">
 						<p class="text-center"><b>GIFT CARDS</b><br />
 							E-Cards always available or pull up curbside<br />
@@ -125,7 +125,7 @@
 							-CARDS ARE REDEEMABLE AT BOTH LOCATIONS AND 189 BURGER-
 						</p>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<div class="col-sm-12 col-lg-6 col">
 						<img src="images/bb_merch.jpg" class="mx-auto" alt="merch">
 						<p class="text-center"><b>PICK UP OR SHIP OUR MERCH</b><br />
 							Purchase Bar-Bill Merch to pick up curbside
