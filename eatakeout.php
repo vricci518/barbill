@@ -181,7 +181,6 @@
 			</div>
 		</div>
 	</div>
-	</div>
 	<footer>
 		<div class="footer">
 			<h2>Our Locations</h2>
