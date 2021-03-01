@@ -43,9 +43,9 @@
 								Info
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<li><a href="aboutus.php">About Us</a></li>
-								<li><a href="faq.php">FAQ</a></li>
-								<li><a href="contact.php">Contact Us</a></li>
+								<li><a class="dropdown-item" href="aboutus.php">About Us</a></li>
+								<li><a class="dropdown-item" href="faq.php">FAQ</a></li>
+								<li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -57,13 +57,13 @@
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern"/>
+					<img src="images/caro_bbt.jpeg" class="d-block w-100" alt="barbill tavern" />
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings"/>
+					<img src="images/caro_wings.jpeg" class="d-block w-100" alt="chicken wings" />
 				</div>
 				<div class="carousel-item">
-					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich"/>
+					<img src="images/caro_rbeef.jpeg" class="d-block w-100" alt="roastbeef sandwich" />
 				</div>
 			</div>
 		</div>
@@ -75,14 +75,14 @@
 			<h3>We are open for dining at both Bar-Bill locations! Reservations are strongly encouraged as we are operating
 				at 50% capacity. Book your table through our website now!</h3>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/Loc_EastAurora.jpg" class="mx-auto" alt="east aurora">
 					<p class="text-center"><b>EAST AURORA RESERVATIONS</b><br />
 						Open Monday - Sunday 11:30 am til 10:00 pm (Last Seating at 8:45 pm)<br />
 						-ONLINE RESERVATIONS ONLY-
 					</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/Loc_Clarence.jpg" class="mx-auto" alt="clarence">
 					<p class="text-center"><b>CLARENCE RESERVATIONS</b><br />
 						Open Monday - Saturday 11:30 am til 10:00 pm (Last Seating at 8:30 pm)<br />
@@ -95,7 +95,7 @@
 		<div class="reservation container">
 			<h2>Curbside Takeout</h2>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/to_eastaurora.jpg" class="mx-auto" alt="east aurora take out">
 					<p class="text-center"><b>EAST AURORA TAKEOUT</b><br />
 						Available Daily 11:30 am til 9:00 pm<br />
@@ -103,7 +103,7 @@
 						-WE DO NOT ACCEPT PRE-ORDERS, ONLY ORDERS IN REAL TIME-
 					</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-lg-6 col">
+				<div class="col-sm-12 col-lg-6 col">
 					<img src="images/to_clarence.jpg" class="mx-auto" alt="clarence take out">
 					<p class="text-center"><b>CLARENCE TAKEOUT</b><br />
 						Available Sunday - Thursday 11:30 am til 7:30 pm<br />
@@ -117,7 +117,7 @@
 			<h2>Gift Cards and Merch</h2>
 			<div class="location">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<div class="col-sm-12 col-lg-6 col">
 						<img src="images/bb_giftcard.jpg" class="mx-auto" alt="gift card">
 						<p class="text-center"><b>GIFT CARDS</b><br />
 							E-Cards always available or pull up curbside<br />
@@ -125,7 +125,7 @@
 							-CARDS ARE REDEEMABLE AT BOTH LOCATIONS AND 189 BURGER-
 						</p>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-lg-6 col">
+					<div class="col-sm-12 col-lg-6 col">
 						<img src="images/bb_merch.jpg" class="mx-auto" alt="merch">
 						<p class="text-center"><b>PICK UP OR SHIP OUR MERCH</b><br />
 							Purchase Bar-Bill Merch to pick up curbside
@@ -137,27 +137,27 @@
 			</div>
 		</div>
 	</div>
-		<footer class="container-fluid">
-			<div class="footer">
-				<h2>Our Locations</h2>
-				<p><em>East Aurora Takeout</em><br />
-					191 Main Street, Rear<br />
-					East Aurora, NY 14052<br />
-					(716) 652-7959
-				</p>
-				<p><em>East Aurora</em><br />
-					185 Main Street<br />
-					East Aurora, NY 14052<br />
-					(716) 652-7959
-				</p>
-				<p><em>Clarence</em><br />
-					8326 Main Street<br />
-					Clarence, NY 14221<br />
-					(716) 710-9464
-				</p>
-			</div>
-		</footer>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<footer class="container-fluid">
+		<div class="footer">
+			<h2>Our Locations</h2>
+			<p><em>East Aurora Takeout</em><br />
+				191 Main Street, Rear<br />
+				East Aurora, NY 14052<br />
+				(716) 652-7959
+			</p>
+			<p><em>East Aurora</em><br />
+				185 Main Street<br />
+				East Aurora, NY 14052<br />
+				(716) 652-7959
+			</p>
+			<p><em>Clarence</em><br />
+				8326 Main Street<br />
+				Clarence, NY 14221<br />
+				(716) 710-9464
+			</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
