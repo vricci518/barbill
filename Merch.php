@@ -35,17 +35,24 @@
                                 <li><a class="dropdown-item" href="cltakeout.php">Clarence Take Out</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary btn-lg" class="nav-link" href="socialmedia.php">Social Media</a>
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Follow Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="press.php">Press</a></li>
+                                <li><a class="dropdown-item" href="socialmedia.php">Social Media</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Info
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="aboutus.php">About Us</a></li>
-                                <li><a href="faq.php">FAQ</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="aboutus.php">About Us</a></li>
+                                <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
+                                <li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="merch.php">Merchandise</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -58,7 +65,7 @@
             <div class="card mb-3">
                 <img src="images/merch_header.webp" class="card-img-top" id="headerimg" alt="Merchandise header">
                 <div class="card-body">
-                    <h1 class="card-title text-dark">Merchandise</h1>
+                    <h1 class="card-title">Merchandise</h1>
                     <p class="card-text">Effective June 1, 2020 Bar-Bill has suspended all returns or exchanges on any Bar-Bill merchandise or apparel purchased during this time. This change is for the health and safety of our employees and customers. Thank you for understanding!</p>
                     <p class="card-text"><small class="text-muted">April 2020</small></p>
                 </div>
@@ -68,7 +75,7 @@
     <div class="container">
         <div class="row">
             <div class="col-3 my-3">
-                <h2>New Items</h2>
+                <h2 class="merch-title">New Items</h2>
             </div>
         </div>
         <div class="row">
@@ -112,12 +119,10 @@
             </div>
         </div>
     </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-3 my-3">
-                <h2>Apparel</h2>
+                <h2 class="merch-title">Apparel</h2>
             </div>
         </div>
         <div class="row">
@@ -154,14 +159,13 @@
                         <img src="images/merch_apparel_04.jpg" class="card-img-top" alt="T-shirt">
                         <div class="card-body">
                             <h4 class="card-title">Bar-Bill Lager T-shirt</h4>
-                            <p class="card-text">Black with our logo on th front. M-XL $18</p>
+                            <p class="card-text">Black with our logo on the front. M-XL $18</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="container">
         <div class="row">
             <div class="card-group my-3">
@@ -203,8 +207,53 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-6 my-3">
+                <h2 class="merch-title">Order online, pick up curbside</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 mb-3">
+                <div class="card">
+                    <img src="images/merch_order_ea.jpg" class="card-img-top card-order" alt="ea merch">
+                    <div class="card-body">
+                        <h4 class="card-title">East Aurora Merch</h4>
+                        <a href="https://www.toasttab.com/bar-bill/v3" class="btn btn-primary">East Aurora Takeout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 mb-3">
+                <div class="card">
+                    <img src="images/merch_order_cl.jpg" class="card-img-top card-order" alt="cl merch">
+                    <div class="card-body">
+                        <h4 class="card-title">Clarence Merch</h4>
+                        <a href="https://www.toasttab.com/bar-bill-north/v3" class="btn btn-primary">Clarence Takeout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <footer class="container-fluid">
+        <div class="footer">
+            <h2>Our Locations</h2>
+            <p><em>East Aurora Takeout</em><br />
+                191 Main Street, Rear<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>East Aurora</em><br />
+                185 Main Street<br />
+                East Aurora, NY 14052<br />
+                (716) 652-7959
+            </p>
+            <p><em>Clarence</em><br />
+                8326 Main Street<br />
+                Clarence, NY 14221<br />
+                (716) 710-9464
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
