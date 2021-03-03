@@ -132,3 +132,7 @@ h1 {
 .container-fluid {
     padding: 0px;
 }
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}

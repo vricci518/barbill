@@ -73,7 +73,7 @@
             </a>
         </div>
         <div class="row my-4">
-            <a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+            <a href="https://roadfood.com/restaurants/bar-bill-tavern/" target="_blank">
                 <div class="card bg-dark text-white">
                     <img src="images/press_roadfood.jpg" class="card-img headerimg" alt="Roadfood">
                     <div class="card-img-overlay">
@@ -84,7 +84,7 @@
             </a>
         </div>
         <div class="row my-4">
-            <a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+            <a href="https://www.thrillist.com/eat/nation/the-21-best-chicken-wing-restaurants-in-america" target="_blank">
                 <div class="card bg-dark text-dark">
                     <img src="images/press_thrillist.jfif" class="card-img headerimg" alt="Thrillist">
                     <div class="card-img-overlay">
@@ -95,26 +95,7 @@
             </a>
         </div>
     </div>
-    <footer class="container-fluid">
-		<div class="footer">
-			<h2>Our Locations</h2>
-			<p><em>East Aurora Takeout</em><br />
-				191 Main Street, Rear<br />
-				East Aurora, NY 14052<br />
-				(716) 652-7959
-			</p>
-			<p><em>East Aurora</em><br />
-				185 Main Street<br />
-				East Aurora, NY 14052<br />
-				(716) 652-7959
-			</p>
-			<p><em>Clarence</em><br />
-				8326 Main Street<br />
-				Clarence, NY 14221<br />
-				(716) 710-9464
-			</p>
-		</div>
-	</footer>
+	<?php include 'footer.php';?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
