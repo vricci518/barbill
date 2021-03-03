@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<header class="sticky-top">
+<header class="sticky-top">
 		<img src="images/bbwhite_logo.png" id="logo" alt="bar bill logo">
 		<h1>bar-bill tavern: East Aurora and Clarence, NY</h1><br />
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
@@ -35,8 +35,14 @@
 								<li><a class="dropdown-item" href="cltakeout.php">Clarence Take Out</a></li>
 							</ul>
 						</li>
-						<li class="nav-item">
-							<a class="btn btn-primary btn-lg" class="nav-link" href="socialmedia.php">Social Media</a>
+						<li class="nav-item dropdown">
+							<a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Follow Us
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="press.php">Press</a></li>
+								<li><a class="dropdown-item" href="socialmedia.php">Social Media</a></li>
+							</ul>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="btn btn-primary btn-lg" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,6 +52,7 @@
 								<li><a class="dropdown-item" href="aboutus.php">About Us</a></li>
 								<li><a class="dropdown-item" href="faq.php">FAQ</a></li>
 								<li><a class="dropdown-item" href="contact.php">Contact Us</a></li>
+								<li><a class="dropdown-item" href="merch.php">Merchandise</a></li>
 							</ul>
 						</li>
 					</ul>

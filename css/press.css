@@ -1,0 +1,19 @@
+.headerimg{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+a .card:hover {
+    opacity: 0.5;
+}
+.card-title{
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+p{
+    width: 50%;
+    font-size: 30px;
+}
+.bg-custom{
+    background-color:  #2A53A280;
+}

@@ -2,12 +2,12 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
-	<link rel="stylesheet" href="css/socialmedia.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="css/barbill.css">
+    <link rel="stylesheet" href="css/press.css">
 </head>
 
 <body>
@@ -60,35 +60,42 @@
 			</div>
 		</nav>
 	</header>
-	<div class="container">
-
-		<div class="row my-4">
-			<div class="SMH col col-3 mx-2">
-				<h2>Follow us on Social Media</h2>
-			</div>
-		</div>
-		<div class="row g-3 my-4">
-			<div class="col col-xs-12 col-lg-3 mx-1">
-				<h2>Facebook</h2>
-				<a class="Social-Media " href="https://www.facebook.com/BarBillTavern" target="_blank">
-					<img class="img-fluid w-100" src="images/bbfacebook.jpg" />
-				</a>
-			</div>
-			<div class="col col-xs-12 col-lg-3 mx-2">
-				<h2>Instagram</h2>
-				<a class="Social-Media" href="https://www.instagram.com/barbilltavern/" target="_blank">
-					<img class="img-fluid w-100" src="images/bbinsta.jpg" />
-				</a>
-			</div>
-			<div class="col col-xs-12 col-lg-3  mx-1">
-				<h2>Twitter</h2>
-				<a class="Social-Media" href="https://twitter.com/barbilltavern?lang=en" target="_blank">
-					<img class="img-fluid w-100" src="images/bbtwitter.jpg" />
-				</a>
-			</div>
-		</div>
-	</div>
-	<footer>
+    <div class="container">
+        <div class="row my-4">
+            <a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+                <div class="card bg-dark text-white p-0 ">
+                    <img src="images/press_step_out.jpg" class="card-img headerimg" alt="stepout">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">Stepout Buffalo</h2>
+                        <p class="card-text p-5 bg-custom rounded">"I’m going to put this simply. Bar Bill wings are as good as they get."</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row my-4">
+            <a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+                <div class="card bg-dark text-white">
+                    <img src="images/press_roadfood.jpg" class="card-img headerimg" alt="Roadfood">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">RoadFood</h2>
+                        <p class="card-text p-5 bg-custom rounded">"On the endlessly appetizing Buffalo Wing Trail, this place is a highlight."</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row my-4">
+            <a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+                <div class="card bg-dark text-dark">
+                    <img src="images/press_thrillist.jfif" class="card-img headerimg" alt="Thrillist">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">Thrillist</h2>
+                        <p class="card-text text-white p-5 bg-custom rounded"> "New York State is the birthplace of Buffalo wings... All roads lead to Anchor Bar in Buffalo, New York"</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer class="container-fluid">
 		<div class="footer">
 			<h2>Our Locations</h2>
 			<p><em>East Aurora Takeout</em><br />
@@ -108,8 +115,7 @@
 			</p>
 		</div>
 	</footer>
-	</div>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
