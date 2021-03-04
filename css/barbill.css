@@ -125,6 +125,7 @@ h1 {
 }
 
 .footer p {
+    color: #fff;
     width: 30%;
     display: inline-block;
 }
