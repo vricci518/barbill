@@ -1,14 +1,21 @@
 
-.SMH{
-    color: #C03832;
-    border-radius: 20px;
-    background-color: #FFFFFF85;
-    font-size: 20px;
+.headerimg{
+    width:100%;
+    height:400px;
+    object-fit: cover;
 }
-.col{
-    background-color: #FFFFFF85;
-    border-radius: 10px;
+a .card:hover {
+    opacity: 0.5;
 }
-.Social-Media img{
-    border: 3px solid #C03832;
+.card-title{
+    width: min-content;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+.card-text{
+    width: 50%;
+    font-size: 30px;
+}
+.bg-custom{
+    background-color:  #2A53A280;
 }
