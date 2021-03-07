@@ -11,36 +11,40 @@
 </head>
 
 <body>
-<?php include 'header.php'; ?>
+	<?php include 'header.php'; ?>
 	<div class="container">
-
-		<div class="row my-4">
-			<div class="SMH col col-3 mx-2">
-				<h2>Follow us on Social Media</h2>
-			</div>
+		<div class="row g-3 my-4">
+			<a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+				<div class="card bg-dark text-white p-0 ">
+					<img src="images/bbfacebook.jpg" class="card-img headerimg" alt="facebook">
+					<div class="card-img-overlay">
+						<h2 class="card-title p-5 bg-custom rounded">Facebook</h2>
+					</div>
+				</div>
+			</a>
 		</div>
 		<div class="row g-3 my-4">
-			<div class="col col-xs-12 col-lg-3 mx-1">
-				<h2>Facebook</h2>
-				<a class="Social-Media " href="https://www.facebook.com/BarBillTavern" target="_blank">
-					<img class="img-fluid w-100" src="images/bbfacebook.jpg" />
-				</a>
-			</div>
-			<div class="col col-xs-12 col-lg-3 mx-2">
-				<h2>Instagram</h2>
-				<a class="Social-Media" href="https://www.instagram.com/barbilltavern/" target="_blank">
-					<img class="img-fluid w-100" src="images/bbinsta.jpg" />
-				</a>
-			</div>
-			<div class="col col-xs-12 col-lg-3  mx-1">
-				<h2>Twitter</h2>
-				<a class="Social-Media" href="https://twitter.com/barbilltavern?lang=en" target="_blank">
-					<img class="img-fluid w-100" src="images/bbtwitter.jpg" />
-				</a>
-			</div>
+			<a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+				<div class="card bg-dark text-white p-0 ">
+					<img src="images/bbinsta.jpg" class="card-img headerimg" alt="facebook">
+					<div class="card-img-overlay">
+						<h2 class="card-title p-5 bg-custom rounded">Instagram</h2>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="row g-3 my-4">
+			<a href="https://stepoutbuffalo.com/bar-bill-as-good-as-it-gets-chicken-wings-buffalo/" target="_blank">
+				<div class="card bg-dark text-white p-0 ">
+					<img src="images/bbtwitter.jpg" class="card-img headerimg" alt="facebook">
+					<div class="card-img-overlay">
+						<h2 class="card-title p-5 bg-custom rounded">Twitter</h2>
+					</div>
+				</div>
+			</a>
 		</div>
 	</div>
-	<?php include 'footer.php';?>
+	<?php include 'footer.php'; ?>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
