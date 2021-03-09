@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Oswald", sans-serif;
-	background-color: #2A53A280;
+	background-color: #AEC2EA;
 }
 
 /* Header  Logo and Navigation Bar Links */
@@ -39,53 +39,62 @@ h1 {
 }
 
 /* background of nav bar*/
+
 .navbar-custom {
 	background-color: #2A53A2;
-	
-	
 }
-.btn.btn-primary.btn-lg{
+
+.btn.btn-primary.btn-lg {
 	background-color: #c2d1ef;
-	color:#2A53A2;
+	color: #2A53A2;
 }
+
 .btn:hover.btn-primary:hover.btn-lg {
 	background-color: #c2d1ef;
 }
-.btn:hover.btn-primary:hover.btn-lg:hover{
+
+.btn:hover.btn-primary:hover.btn-lg:hover {
 	background-color: #C03832;
 	text-align: center;
 }
+
 .nav-item {
-	margin:0px 20px;
+	margin: 0px 20px;
 	padding: 15px;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
-} 
-.dropdown-menu.show{
+}
+
+.dropdown-menu.show {
 	background-color: #3563c0;
 	margin: 0px;
 	padding: 0px;
 }
+
 .dropdown-menu {
 	margin: 0px;
 }
-.dropdown-menu li{
+
+.dropdown-menu li {
 	padding: 10px;
 	text-align: center;
 }
-.dropdown-menu a{
+
+.dropdown-menu a {
 	text-decoration: none;
 	color: white;
 }
-.dropdown-menu li:hover{
+
+.dropdown-menu li:hover {
 	background-color: #C03832;
 }
-.dropdown-item:hover{
-	background-image: none;
-	background-color:#C03832; 
 
+.dropdown-item:hover {
+	background-image: none;
+	background-color: #C03832;
 }
+
 .button {
 	background-color: #2A53A2;
 	color: #fff;
@@ -99,12 +108,6 @@ h1 {
 .button:hover {
 	background-color: #C03832;
 }
-
-.pbottom {
-	margin-top: 500px;
-}
-
-/* Social Media */
 
 .pbottom {
 	margin-top: 500px;
@@ -131,7 +134,8 @@ h1 {
 .container-fluid {
 	padding: 0px;
 }
-.footer a{
+
+.footer a {
 	color: #fff;
 	text-decoration: none;
 }

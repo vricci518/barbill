@@ -6,12 +6,12 @@
 	<title>MENU - Bar-Bill Tavern - Restaurant in NY</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
+	<link rel="stylesheet" href="css/bb_common.css">
 	<link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
-<?php include 'header.php'; ?>
+	<?php include 'header.php'; ?>
 	<div class="container-fluid">
 		<h2 id="menuheader">East Aurora Menu</h2>
 		<div class="container-fluid menu">
@@ -70,13 +70,13 @@
 						$8.95
 					</p>
 				</div>
-				<div class="salad col-sm-12 col-md-6">
+				<div class="salad col col-sm-12 col-md-6">
 					<p><b>FRESH MOZZARELLA SALAD</b><br />
 						With Tomatoes, Baby Spinach, Red Onions and Creamy Balsamic dressing.<br />
 						$7.95
 					</p>
 				</div>
-				<div class="salad col-sm-12 col-md-6">
+				<div class="salad col col-sm-12 col-md-6">
 					<p><b>CHEF SALAD</b><br />
 						Spring mix, Tomatoes, Onions, Croutons and Mozzarella Cheese.<br />
 						Choose: Ranch, Honey Mustard, Creamy Balsamic, or Italian
@@ -137,7 +137,7 @@
 			</div>
 		</div>
 	</div>
-	<?php include 'footer.php';?>
+	<?php include 'footer.php'; ?>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
