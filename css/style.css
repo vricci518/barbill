@@ -1,6 +1,6 @@
 /* Home */
 
-.reservation, {
+.reservation {
 	background-color: #FFFFFF85;
 	border-radius: 20px;
 	margin: 0px auto 20px;
@@ -84,30 +84,34 @@
 
 /* FAQ and common contact form elements*/
 
-.FAQtitle, .cuh{
+.faqTitle, .conTitle{
     width: 35%;
     color: #C03832;
     padding: 20px 40px 20px 40px;
     background-color: #FFFFFF85;
 	border-radius: 20px;
 }
-.FAQ ul, .contactform{
+
+.faq ul, .contactform{
     width:auto;
     padding: 20px 40px 20px 40px;
     border-radius: 20px;
     background-color: #FFFFFF85;
     font-size: 18px;
 }
-.FAQ h2{
+.faq h2{
     color: #C03832
 }
-.FAQ{
+
+.faq {
     background-color: #FFFFFF85;
     font-size: 18px;
 }
-.FAQimg img{
+
+.faqImg img{
     border: 5px solid #C03832;
 }
+
 .col{
     border-radius: 20px;
 }
@@ -119,18 +123,22 @@
     height:400px;
     object-fit: cover;
 }
+
 a .card:hover {
     opacity: 0.5;
 }
+
 .cardlink.card-title {
 	width: min-content;
     font-family: "Oswald", sans-serif;
     font-size: 50px;
 }
+
 .cardlink.card-text{
 	min-width: min-content;
     font-size: 30px;
 }
+
 .bg-custom{
     background-color:  #2A53A280;
 }
@@ -148,10 +156,8 @@ a .card:hover {
 .contactform .cf-group input[type="text"], .cf-group textarea{
     padding: 4px;
 }
-#cpgheader{
-    padding-left: 40px;
-}
-.error{
+
+.formError{
     color: #C03832;
 }
 
@@ -162,9 +168,11 @@ a .card:hover {
     height: 200px;
     object-fit: cover;
 }
-#merchtitle {
+
+#merchTitle {
     color: #C03832
 }
+
 .merch-title {
     color: #C03832;
     padding: 20px 40px 20px 40px;
@@ -172,17 +180,21 @@ a .card:hover {
     width: fit-content;
     border-radius: 20px;
 }
+
 .merch .card {
     min-height: 350px;
     background-color:   #FFFFFF85;
 }
-.merch.card-img-top.card-order{
+
+.merch.card-img-top.card-order {
     width: 100%;
     height: max-content;
 }
+
 .merch.card-title {
     font-size: 10px;
 }
+
 .merch.card-text {
     font-size: 20px;
 }

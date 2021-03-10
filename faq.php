@@ -6,20 +6,20 @@
 	<title>FAQ</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/bb_common.css">
-	<link rel="stylesheet" href="css/bb_style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 <?php include 'header.php'; ?>
-	<div class="mainfaq container">
+	<div class="mainFaq container">
 		<div class="row my-4">
-			<div class="FAQtitle col col-10">
+			<div class="faqTitle col col-10">
 				<h2>Frequently Asked Questions</h2>
 			</div>
 		</div>
 		<div class="row gy-4 gx-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>What are your Hours of Operation?</h2>
 				<ul>
 					<li>East Aurora dine-in is open monday - sunday from 11:30 am til 10:00 pm (last seatings at 8:45 pm)</li>
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>What safety measures are you taking for dining at your restaurant?</h2>
 				<ul>
 					<li>Personal Protective Equipment
@@ -51,18 +51,18 @@
 		</div>
 
 		<div class="row my-4">
-			<div class="FAQ col col-lg-3">
+			<div class="faq col col-lg-3">
 				<h2>I need to make a change to my reservation- what do I do?</h2>
 				<ul>
 					<li>If you are unable to make a change to your reservation through your opentable account please give us a call, leave us a message & someone will get back to you as soon as we can.</li>
 				</ul>
 			</div>
-			<div class="FAQimg col col-9">
+			<div class="faqImg col col-9">
 				<img class="justify-content-around" src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/1f05d53f-5261-4d37-a345-54ec307ad985.jpg" />
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>How do i place a takeout order?</h2>
 				<ul>
 					<li>For East Aurora: place your order online through our website or by calling (716) 652-7959For Clarence: place your order online through our website (*no phone orders at this location*)</li>
@@ -74,24 +74,24 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQimg col-10">
+			<div class="faqImg col-10">
 				<img src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/5a120b00-9b62-42e0-bfc4-b95f52047547.jpg" />
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-lg-3 mb-3">
+			<div class="faq col col-lg-3 mb-3">
 				<h2>Can I schedule an order for a later time?</h2>
 				<ul>
 					<li>So sorry, but our online system is unable to accept pre-orders (same goes for our phone orders). We can only accept takeout orders in real time as they are placed.</li>
 				</ul>
 			</div>
-			<div class="FAQimg col col-9">
+			<div class="faqImg col col-9">
 				<img class="justify-content-around" src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/15a1bbc4-9090-4bd6-8e4a-c463f94635f8.png" />
 			</div>
 		</div>
 
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>My giftcard isn't working online - how do i fix this?</h2>
 				<ul>
 					<li>We've recently switched over our online operating system at all of our locations. If you purchased or received a red giftcard (pictured below) from one of our locations please input your card info into the link below to get a new number that is compatible with our online system.</li>
@@ -101,35 +101,35 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQimg col col-10">
+			<div class="faqImg col col-10">
 				<img img class="justify-content-around" src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/da7a6576-6d1f-4f7e-ae5e-b9d10ac413ef.JPG" />
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-lg-3">
+			<div class="faq col col-lg-3">
 				<h2>I'm trying to place an order during your open hours, but it says online ordering is currently not available. Why can't i place an order?</h2>
 				<ul>
 					<li>Once the kitchen cook time exceeds the kitchen close time the online ordering form automatically shuts off, sometimes making customers unable to place an online order during our normal open hours. This only happens when our kitchen has hit our capacity for the night- we apologize for any inconvenience.</li>
 			</div>
-			<div class="FAQimg col-lg-8">
+			<div class="faqImg col-lg-8">
 				<img img class="justify-content-around" src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/a49ce4fd-18ae-4a4d-96cb-ea2748b4a577.png" />
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>What happens once i've submitted my order?</h2>
 				<ul>
 					<li>You will be given an estimated time of when your food will be ready. When you arrive, please stay in your vehicle until you receive a text from us letting you know that your order is done. At that time pull up to the takeout cones & someone will bring your food out to you.</li>
 				</ul>
 			</div>
 		</div>
-		<div class="row FAQimg">
+		<div class="row faqImg">
 			<div class="col col-6">
 				<img img class="justify-content-around" src="https://popmenucloud.com/cdn-cgi/image/width=768,height=768,fit=scale-down,format=auto,quality=60/laworbdj/9db7e650-54d6-44a5-b3f6-070ccfb92adf.jpeg" />
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>I have an issue - how can I talk to someone on the phone?</h2>
 				<ul>
 					<li>You can call us and leave a voicemail at either location. We are doing our very best to get back to those that have left us a message within 30 minutes (during our open hours). If a message is left after hours we will be in touch the following day. We appreciate your patience!</li>
@@ -137,7 +137,7 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>How far in advance can i place a reservation for a table at Bar-Bill Tavern or Bar-Bill North?</h2>
 				<ul>
 					<li>Guests are able to place a reservation up to 14 days in advance through our website!</li>
@@ -145,7 +145,7 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQ col col-10">
+			<div class="faq col col-10">
 				<h2>How can I be updated on announcements, changes or news from Bar-Bill?</h2>
 				<ul>
 					<li>Make sure you are following us on facebook, instagram & twitter for updates on Bar-Bill Tavern & Bar-Bill North!</li>
@@ -153,7 +153,7 @@
 			</div>
 		</div>
 		<div class="row my-4">
-			<div class="FAQtitle col col-10">
+			<div class="faqTitle col col-10">
 				<h2>Thank you for your continued patronage & support during this time!</h2>
 			</div>
 		</div>

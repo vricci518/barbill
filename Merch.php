@@ -6,8 +6,8 @@
 	<title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="css/bb_style.css">
-	<link rel="stylesheet" href="css/bb_common.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 			<div class="card mb-3">
 				<img src="images/merch_header.webp" class="card-img-top headerimg"  alt="Merchandise header">
 				<div class="card-body">
-					<h1 id="merchtitle" class="card-title">Merchandise</h1>
+					<h1 id="merchTitle" class="card-title">Merchandise</h1>
 					<p class="card-text">Effective June 1, 2020 Bar-Bill has suspended all returns or exchanges on any Bar-Bill merchandise or apparel purchased during this time. This change is for the health and safety of our employees and customers. Thank you for understanding!</p>
 					<p class="card-text"><small class="text-muted">April 2020</small></p>
 				</div>
