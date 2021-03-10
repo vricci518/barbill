@@ -1,6 +1,6 @@
 /* Home */
 
-.reservation {
+.reservation, {
 	background-color: #FFFFFF85;
 	border-radius: 20px;
 	margin: 0px auto 20px;
@@ -80,4 +80,109 @@
 	color: #FFFFFF;
 	width: 90%;
 	margin: auto;
+}
+
+/* FAQ and common contact form elements*/
+
+.FAQtitle, .cuh{
+    width: 35%;
+    color: #C03832;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF85;
+	border-radius: 20px;
+}
+.FAQ ul, .contactform{
+    width:auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+}
+.FAQ h2{
+    color: #C03832
+}
+.FAQ{
+    background-color: #FFFFFF85;
+    font-size: 18px;
+}
+.FAQimg img{
+    border: 5px solid #C03832;
+}
+.col{
+    border-radius: 20px;
+}
+
+/* press social media*/
+
+.headerimg{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+a .card:hover {
+    opacity: 0.5;
+}
+.cardlink.card-title {
+	width: min-content;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+.cardlink.card-text{
+	min-width: min-content;
+    font-size: 30px;
+}
+.bg-custom{
+    background-color:  #2A53A280;
+}
+
+/* contact */
+
+.contactform .cf-group{
+    padding-bottom: 15px;
+}
+
+.contactform label{
+    display: block;
+}
+
+.contactform .cf-group input[type="text"], .cf-group textarea{
+    padding: 4px;
+}
+#cpgheader{
+    padding-left: 40px;
+}
+.error{
+    color: #C03832;
+}
+
+/* merch */
+
+.merch .card-img-top {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+}
+#merchtitle {
+    color: #C03832
+}
+.merch-title {
+    color: #C03832;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF85;
+    width: fit-content;
+    border-radius: 20px;
+}
+.merch .card {
+    min-height: 350px;
+    background-color:   #FFFFFF85;
+}
+.merch.card-img-top.card-order{
+    width: 100%;
+    height: max-content;
+}
+.merch.card-title {
+    font-size: 10px;
+}
+.merch.card-text {
+    font-size: 20px;
 }

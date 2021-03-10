@@ -5,15 +5,15 @@
 	<title>Contact Bar-Bill</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
-	<link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bb_style.css">
+	<link rel="stylesheet" href="css/bb_common.css">
 </head>
 
 <body>
 <?php include 'header.php'; ?>
 	<div class="container">
 		</br>
-		<div id="CUH">
+		<div class="cuh">
 			<h2>Contact Us- we will get back to you as soon as possible.</h2>
 		</div>
 		<div class="error">

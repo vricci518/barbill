@@ -6,8 +6,8 @@
 	<title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
-	<link rel="stylesheet" href="css/socialmedia.css">
+	<link rel="stylesheet" href="css/bb_style.css">
+	<link rel="stylesheet" href="css/bb_common.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 				<div class="card bg-dark text-white p-0 ">
 					<img src="images/bbfacebook.jpg" class="card-img headerimg" alt="facebook">
 					<div class="card-img-overlay">
-						<h2 class="card-title p-5 bg-custom rounded">Facebook</h2>
+						<h2 class="cardlink card-title p-5 bg-custom rounded">Facebook</h2>
 					</div>
 				</div>
 			</a>
@@ -28,7 +28,7 @@
 				<div class="card bg-dark text-white p-0 ">
 					<img src="images/bbinsta.jpg" class="card-img headerimg" alt="facebook">
 					<div class="card-img-overlay">
-						<h2 class="card-title p-5 bg-custom rounded">Instagram</h2>
+						<h2 class="cardlink card-title p-5 bg-custom rounded">Instagram</h2>
 					</div>
 				</div>
 			</a>
@@ -38,7 +38,7 @@
 				<div class="card bg-dark text-white p-0 ">
 					<img src="images/bbtwitter.jpg" class="card-img headerimg" alt="facebook">
 					<div class="card-img-overlay">
-						<h2 class="card-title p-5 bg-custom rounded">Twitter</h2>
+						<h2 class="cardlink card-title p-5 bg-custom rounded">Twitter</h2>
 					</div>
 				</div>
 			</a>
