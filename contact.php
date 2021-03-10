@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact Bar-Bill</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
-	<link rel="stylesheet" href="css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Bar-Bill</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
-<?php include 'header.php'; ?>
-	<div class="container">
-		</br>
-		<div id="CUH">
-			<h2>Contact Us- we will get back to you as soon as possible.</h2>
-		</div>
-		<div class="error">
-			<?php
-			if (isset($_POST["submit"])) {
-				$name = '';
-				$email = '';
-				$phone = '';
-				$comment = '';
-				$location = '';
+    <?php include 'header.php'; ?>
+    <div class="container">
+        </br>
+        <div class="conTitle">
+            <h2>Contact Us- we will get back to you as soon as possible.</h2>
+        </div>
+        <div class="formError">
+            <?php
+            if (isset($_POST["submit"])) {
+                $name = '';
+                $email = '';
+                $phone = '';
+                $comment = '';
+                $location = '';
 
-				$errors =  array('name' => '', 'email' => '', 'phone' => '', 'comment' => '', 'location' => '');
+                $errors =  array('name' => '', 'email' => '', 'phone' => '', 'comment' => '', 'location' => '');
 
                 if (!empty(trim($_POST["name"]))) {
                     $name = trim($_POST['name']);
@@ -84,7 +84,7 @@
             </form>
         </div>
     </div>
-    <?php include 'footer.php';?>
+    <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 

@@ -6,8 +6,8 @@
 	<title>BAR-BILL TAVERN - Bar-Bill Tavern - Restaurant in NY</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-	<link rel="stylesheet" href="css/barbill.css">
-	<link rel="stylesheet" href="css/press.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
 				<div class="card bg-dark text-white p-0 ">
 					<img src="images/press_step_out.jpg" class="card-img headerimg" alt="stepout">
 					<div class="card-img-overlay">
-						<h2 class="card-title">Stepout Buffalo</h2>
-						<p class="card-text p-5 bg-custom rounded">"I’m going to put this simply. Bar Bill wings are as good as they get."</p>
+						<h2 class="cardlink card-title">Stepout Buffalo</h2>
+						<p class="cardlink card-text p-5 bg-custom rounded">"I’m going to put this simply. Bar Bill wings are as good as they get."</p>
 					</div>
 				</div>
 			</a>
@@ -29,8 +29,8 @@
 				<div class="card bg-dark text-white">
 					<img src="images/press_roadfood.jpg" class="card-img headerimg" alt="Roadfood">
 					<div class="card-img-overlay">
-						<h2 class="card-title">RoadFood</h2>
-						<p class="card-text p-5 bg-custom rounded">"On the endlessly appetizing Buffalo Wing Trail, this place is a highlight."</p>
+						<h2 class="cardlink card-title">RoadFood</h2>
+						<p class="cardlink card-text p-5 bg-custom rounded">"On the endlessly appetizing Buffalo Wing Trail, this place is a highlight."</p>
 					</div>
 				</div>
 			</a>
@@ -40,8 +40,8 @@
 				<div class="card bg-dark text-dark">
 					<img src="images/press_thrillist.jfif" class="card-img headerimg" alt="Thrillist">
 					<div class="card-img-overlay">
-						<h2 class="card-title">Thrillist</h2>
-						<p class="card-text text-white p-5 bg-custom rounded"> "New York State is the birthplace of Buffalo wings... All roads lead to Anchor Bar in Buffalo, New York"</p>
+						<h2 class="cardlink card-title">Thrillist</h2>
+						<p class="cardlink card-text text-white p-5 bg-custom rounded"> "New York State is the birthplace of Buffalo wings... All roads lead to Anchor Bar in Buffalo, New York"</p>
 					</div>
 				</div>
 			</a>

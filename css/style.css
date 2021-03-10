@@ -1,0 +1,200 @@
+/* Home */
+
+.reservation {
+	background-color: #FFFFFF85;
+	border-radius: 20px;
+	margin: 0px auto 20px;
+	width: 90%;
+}
+
+.reservation h2 {
+	text-align: center;
+	color: #C03832;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+.reservation h3 {
+	text-align: center;
+	margin: auto 5%;
+}
+
+.home_img {
+	display: block;
+	border: 5px solid #C03832;
+	width: 75%;
+	margin: 2%;
+}
+
+.home_p {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin: 2%;
+}
+
+/* About Us */
+
+.about {
+	background-color: #FFFFFF85;
+	border-radius: 20px;
+	width: 90%;
+	margin: auto;
+}
+
+.about h2 {
+	text-align: center;
+	color: #C03832;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+.about img {
+	border: 5px solid #C03832;
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+.about p {
+	width: 90%;
+	margin: auto;
+	padding: 5px 0px;
+}
+
+.firsttime {
+	background-color: #C03832;
+	text-align: center;
+	margin: auto;
+	border-radius: 20px;
+	width: 90%;
+}
+
+.firsttime h2 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.firsttime p {
+	color: #FFFFFF;
+	width: 90%;
+	margin: auto;
+}
+
+/* FAQ and common contact form elements*/
+
+.faqTitle, .conTitle{
+    width: 35%;
+    color: #C03832;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF85;
+	border-radius: 20px;
+}
+
+.faq ul, .contactform{
+    width:auto;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF85;
+    font-size: 18px;
+}
+.faq h2{
+    color: #C03832
+}
+
+.faq {
+    background-color: #FFFFFF85;
+    font-size: 18px;
+}
+
+.faqImg img{
+    border: 5px solid #C03832;
+}
+
+.col{
+    border-radius: 20px;
+}
+
+/* press social media*/
+
+.headerimg{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+
+a .card:hover {
+    opacity: 0.5;
+}
+
+.cardlink.card-title {
+	width: min-content;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+}
+
+.cardlink.card-text{
+	min-width: min-content;
+    font-size: 30px;
+}
+
+.bg-custom{
+    background-color:  #2A53A280;
+}
+
+/* contact */
+
+.contactform .cf-group{
+    padding-bottom: 15px;
+}
+
+.contactform label{
+    display: block;
+}
+
+.contactform .cf-group input[type="text"], .cf-group textarea{
+    padding: 4px;
+}
+
+.formError{
+    color: #C03832;
+}
+
+/* merch */
+
+.merch .card-img-top {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+}
+
+#merchTitle {
+    color: #C03832
+}
+
+.merch-title {
+    color: #C03832;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF85;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.merch .card {
+    min-height: 350px;
+    background-color:   #FFFFFF85;
+}
+
+.merch.card-img-top.card-order {
+    width: 100%;
+    height: max-content;
+}
+
+.merch.card-title {
+    font-size: 10px;
+}
+
+.merch.card-text {
+    font-size: 20px;
+}
